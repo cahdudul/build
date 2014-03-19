@@ -1,0 +1,29 @@
+<!-- This file is auto-generated.  DO NOT MODIFY.-->
+
+<!-- Delete for Smali 
+	<feature name="oppo.sw.solution.device" /> -->
+
+<permissions>
+	<feature name="oppo.ape.playback.support" />
+	<feature name="oppo.flac.playback.support" />
+	<feature name="oppo.real.playback.support" />
+	<feature name="oppo.camflash.support" />
+	<feature name="oppo.camfocus.support" />
+	<feature name="oppo.frontcam.support" />
+	<feature name="oppo.screenshot.support" />
+	<feature name="oppo.theme.switch.support" />
+	<feature name="oppo.find.style.support" />
+	<feature name="oppo.msensor.support" />
+	<feature name="oppo.short.press.disable.alarm.support" />
+	<feature name="oppo.open.agc.support" />
+	<feature name="oppo.emmc.dynamicmount.support" />
+	<feature name="oppo.single.screen.wallpaper.support" />
+	<feature name="oppo.internal.storage.support" />
+	<feature name="oppo.dolby.support" />
+	<feature name="oppo.dirac.support" />
+	<feature name="oppo.breath.light.support" />
+	<feature name="oppo.align.time" />
+	<feature name="oppo.narrow.frame" />
+	<feature name="oppo.filtrated.app" />
+	<feature name="oppo.sw.solution.rom" />
+</permissions>
