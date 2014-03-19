@@ -121,16 +121,18 @@
     
     <string-array name="oppo_permissions_prompt">
         <item>撥打電話</item>
-        <item>存取通話記錄</item>
-        <item>存取連絡人資訊</item>
-        <item>存取簡訊、多媒體訊息資訊</item>
-        <item>發送簡訊</item>
-        <item>啟用拍照、錄影</item>
-        <item>開啟/關閉Wi-Fi</item>
+        <item>讀取通話記錄</item>
+        <item>讀取連絡人資訊</item>
+        <item>讀取簡訊/多媒體訊息記錄</item>
+        <item>傳送簡訊</item>
+        <item>傳送多媒體訊息</item>
+        <item>開啟/關閉行動網路</item>
+        <item>開啟/關閉WLAN</item>
         <item>開啟/關閉藍牙</item>
-        <item>獲得手機位置</item>
-        <item>開啟資料網路</item>
-        <item>錄音</item>
+        <item>使用GPS定位（注：應用程式還可能通過其他途徑獲取位置信息）</item>
+        <item>使用攝像頭</item>
+        <item>錄音或者通話錄音</item>
+        <item>開啟/關閉NFC</item>
     </string-array>
     <string-array name="oppo_time_picker_ampm">
     	<item>上午</item>

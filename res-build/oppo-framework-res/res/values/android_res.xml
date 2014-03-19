@@ -22,9 +22,7 @@
     <!--  bool  -->
     <bool name="android_config_enable_puk_unlock_screen">@*android:bool/config_enable_puk_unlock_screen</bool>
     <bool name="android_config_enable_emergency_call_while_sim_locked">@*android:bool/config_enable_emergency_call_while_sim_locked</bool>
-    <bool name="android_config_allowActionMenuItemTextWithIcon">@*android:bool/config_allowActionMenuItemTextWithIcon</bool>
-    <bool name="android_preferences_prefer_dual_pane">@*android:bool/preferences_prefer_dual_pane</bool>
-        <!-- public -->
+    <!-- public -->
     <bool name="android_config_use_strict_phone_number_comparation">@*android:bool/config_use_strict_phone_number_comparation</bool>
     <bool name="android_config_voice_capable">@*android:bool/config_voice_capable</bool>
     <bool name="android_config_automatic_brightness_available">@*android:bool/config_automatic_brightness_available</bool>
@@ -37,12 +35,12 @@
     <bool name="android_config_dreamsEnabledByDefault">@*android:bool/config_dreamsEnabledByDefault</bool>
     <bool name="android_config_dreamsActivatedOnDockByDefault">@*android:bool/config_dreamsActivatedOnDockByDefault</bool>
     <bool name="android_config_dreamsActivatedOnSleepByDefault">@*android:bool/config_dreamsActivatedOnSleepByDefault</bool>
+    <bool name="android_config_safe_media_volume_enabled">@*android:bool/config_safe_media_volume_enabled</bool>
 
     <!-- color -->
     <color name="android_tab_indicator_text_v4">@*android:color/tab_indicator_text_v4</color>
 
     <!-- dimen -->
-    <dimen name="android_textview_error_popup_default_width">@*android:dimen/textview_error_popup_default_width</dimen>
     <dimen name="android_search_view_preferred_width">@*android:dimen/search_view_preferred_width</dimen>
     <dimen name="android_dropdownitem_icon_width">@*android:dimen/dropdownitem_icon_width</dimen>
     <dimen name="android_dropdownitem_text_padding_left">@*android:dimen/dropdownitem_text_padding_left</dimen>
@@ -52,28 +50,17 @@
     <dimen name="android_status_bar_height">@*android:dimen/status_bar_height</dimen>
     <dimen name="android_preference_fragment_padding_side">@*android:dimen/preference_fragment_padding_side</dimen>
     <dimen name="android_preference_item_padding_side">@*android:dimen/preference_item_padding_side</dimen>
-    <dimen name="android_preference_widget_width">@*android:dimen/preference_widget_width</dimen>
     <dimen name="android_preference_fragment_padding_bottom">@*android:dimen/preference_fragment_padding_bottom</dimen>
-    <dimen name="android_navigation_bar_height">@*android:dimen/navigation_bar_height</dimen>
-    <dimen name="android_status_bar_icon_size">@*android:dimen/status_bar_icon_size</dimen>
     <dimen name="android_system_bar_icon_size">@*android:dimen/system_bar_icon_size</dimen>
     <dimen name="android_volume_panel_top">@*android:dimen/volume_panel_top</dimen>
 
     <!-- drawable -->
     <drawable name="android_ic_emergency">@*android:drawable/ic_emergency</drawable>
     <drawable name="android_tab_indicator_v4">@*android:drawable/tab_indicator_v4</drawable>
-    <drawable name="android_indicator_input_error">@*android:drawable/indicator_input_error</drawable>
-    <drawable name="android_text_edit_side_paste_window">@*android:drawable/text_edit_side_paste_window</drawable>
-    <!--<drawable name="android_ic_suggestions_add">@*android:drawable/ic_suggestions_add</drawable>-->
-    <!--<drawable name="android_ic_suggestions_delete">@*android:drawable/ic_suggestions_delete</drawable>-->
-    <drawable name="android_text_edit_paste_window">@*android:drawable/text_edit_paste_window</drawable>
-        <!-- public -->
-    <drawable name="android_dialog_full_holo_dark">@*android:drawable/dialog_full_holo_dark</drawable>
+    <!-- public -->
     <drawable name="android_quickcontact_badge_overlay_pressed_light">@*android:drawable/quickcontact_badge_overlay_pressed_light</drawable>
     <drawable name="android_quickcontact_badge_overlay_normal_light">@*android:drawable/quickcontact_badge_overlay_normal_light</drawable>
     <drawable name="android_search_plate_global">@*android:drawable/search_plate_global</drawable>
-    <drawable name="android_textfield_search">@*android:drawable/textfield_search</drawable>
-    <drawable name="android_divider_horizontal_dark_opaque">@*android:drawable/divider_horizontal_dark_opaque</drawable>
     <drawable name="android_btn_keyboard_key_fulltrans">@*android:drawable/btn_keyboard_key_fulltrans</drawable>
     <drawable name="android_code_lock_left">@*android:drawable/code_lock_left</drawable>
     <drawable name="android_list_selector_background_disabled">@*android:drawable/list_selector_background_disabled</drawable>
@@ -89,18 +76,12 @@
     <drawable name="android_ic_menu_goto">@*android:drawable/ic_menu_goto</drawable>
     <drawable name="android_expander_ic_minimized">@*android:drawable/expander_ic_minimized</drawable>
     <drawable name="android_expander_ic_maximized">@*android:drawable/expander_ic_maximized</drawable>
-    <drawable name="android_create_contact">@*android:drawable/create_contact</drawable>
     <drawable name="android_ic_contact_picture">@*android:drawable/ic_contact_picture</drawable>
-    <drawable name="android_ic_action_assist_generic">@*android:drawable/ic_action_assist_generic</drawable>
-    <drawable name="android_list_selector_pressed_holo_dark">@*android:drawable/list_selector_pressed_holo_dark</drawable>
-    <drawable name="android_load_average_background">@*android:drawable/load_average_background</drawable>
     <drawable name="android_notification_bg">@*android:drawable/notification_bg</drawable>
     <drawable name="android_scrubber_control_disabled_holo">@*android:drawable/scrubber_control_disabled_holo</drawable>
     <drawable name="android_scrubber_control_selector_holo">@*android:drawable/scrubber_control_selector_holo</drawable>
     <drawable name="android_scrubber_progress_horizontal_holo_dark">@*android:drawable/scrubber_progress_horizontal_holo_dark</drawable>
-    <drawable name="android_stat_sys_data_usb">@*android:drawable/stat_sys_data_usb</drawable>
     <drawable name="android_stat_sys_tether_bluetooth">@*android:drawable/stat_sys_tether_bluetooth</drawable>
-    <drawable name="android_status_bar_background">@*android:drawable/status_bar_background</drawable>
     <drawable name="android_usb_android">@*android:drawable/usb_android</drawable>
     <drawable name="android_usb_android_connected">@*android:drawable/usb_android_connected</drawable>
     <drawable name="android_ic_menu_cc">@*android:drawable/ic_menu_cc</drawable>
@@ -113,11 +94,6 @@
     <string name="android_dlg_ok">@*android:string/dlg_ok</string>   
     <string name="android_date_picker_dialog_title">@*android:string/date_picker_dialog_title</string>
     <string name="android_time_picker_dialog_title">@*android:string/time_picker_dialog_title</string>
-    <string name="android_format_error">@*android:string/format_error</string>
-    <string name="android_media_bad_removal">@*android:string/media_bad_removal</string>
-    <string name="android_media_checking">@*android:string/media_checking</string>
-    <string name="android_media_shared">@*android:string/media_shared</string>
-    <string name="android_media_unknown_state">@*android:string/media_unknown_state</string>
     <string name="android_lockscreen_return_to_call">@*android:string/lockscreen_return_to_call</string>
     <string name="android_lockscreen_emergency_call">@*android:string/lockscreen_emergency_call</string>
     <string name="android_date_picker_increment_day_button">@*android:string/date_picker_increment_day_button</string>
@@ -131,21 +107,15 @@
     <string name="android_lockscreen_access_pattern_cell_added">@*android:string/lockscreen_access_pattern_cell_added</string>
     <string name="android_lockscreen_access_pattern_start">@*android:string/lockscreen_access_pattern_start</string>
     <string name="android_lockscreen_access_pattern_detected">@*android:string/lockscreen_access_pattern_detected</string>
-    <string name="android_lockscreen_access_pattern_cleared">@*android:string/lockscreen_access_pattern_cleared</string>
-    <string name="android_deleteText">@*android:string/deleteText</string>
-    <string name="android_textSelectionCABTitle">@*android:string/textSelectionCABTitle</string>   
+    <string name="android_lockscreen_access_pattern_cleared">@*android:string/lockscreen_access_pattern_cleared</string>  
     <string name="android_time_picker_increment_minute_button">@*android:string/time_picker_increment_minute_button</string>
     <string name="android_time_picker_decrement_minute_button">@*android:string/time_picker_decrement_minute_button</string>
     <string name="android_time_picker_increment_hour_button">@*android:string/time_picker_increment_hour_button</string>
     <string name="android_time_picker_decrement_hour_button">@*android:string/time_picker_decrement_hour_button</string>
     <string name="android_time_picker_increment_set_pm_button">@*android:string/time_picker_increment_set_pm_button</string>
     <string name="android_time_picker_decrement_set_am_button">@*android:string/time_picker_decrement_set_am_button</string>
-    <string name="android_delete">@*android:string/delete</string>
-    <string name="android_addToDictionary">@*android:string/addToDictionary</string>
-    <string name="android_replace">@*android:string/replace</string>
-    <string name="android_inputMethod">@*android:string/inputMethod</string>
     <string name="android_global_actions">@*android:string/global_actions</string>
-        <!-- public -->
+    <!-- public -->
     <string name="android_megabyteShort">@*android:string/megabyteShort</string> 
     <string name="android_gigabyteShort">@*android:string/gigabyteShort</string>  
     <string name="android_ringtone_unknown">@*android:string/ringtone_unknown</string>  
@@ -160,7 +130,6 @@
     <string name="android_common_last_name_prefixes">@*android:string/common_last_name_prefixes</string>
     <string name="android_common_name_suffixes">@*android:string/common_name_suffixes</string>
     <string name="android_common_name_conjunctions">@*android:string/common_name_conjunctions</string>
-    <string name="android_imProtocolAim">@*android:string/imProtocolAim</string>
     <string name="android_chooseUsbActivity">@*android:string/chooseUsbActivity</string>
     <string name="android_config_defaultDreamComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
     <string name="android_ext_media_badremoval_notification_message">@*android:string/ext_media_badremoval_notification_message</string>
@@ -175,7 +144,6 @@
     <string name="android_ext_media_safe_unmount_notification_title">@*android:string/ext_media_safe_unmount_notification_title</string>
     <string name="android_ext_media_unmountable_notification_message">@*android:string/ext_media_unmountable_notification_message</string>
     <string name="android_ext_media_unmountable_notification_title">@*android:string/ext_media_unmountable_notification_title</string>
-    <string name="android_lockscreen_carrier_default">@*android:string/lockscreen_carrier_default</string>
     <string name="android_share">@*android:string/share</string>
     <string name="android_usb_storage_message">@*android:string/usb_storage_message</string>
     <string name="android_usb_storage_notification_message">@*android:string/usb_storage_notification_message</string>
@@ -185,12 +153,6 @@
     <string name="android_usb_storage_stop_notification_title">@*android:string/usb_storage_stop_notification_title</string>
     <string name="android_usb_storage_stop_title">@*android:string/usb_storage_stop_title</string>
     <string name="android_usb_storage_title">@*android:string/usb_storage_title</string>
-    <string name="android_wifi_tether_configure_ssid_default">@*android:string/wifi_tether_configure_ssid_default</string>
-    <string name="android_dlg_confirm_kill_storage_users_title">@*android:string/dlg_confirm_kill_storage_users_title</string>
-    <string name="android_dlg_confirm_kill_storage_users_text">@*android:string/dlg_confirm_kill_storage_users_text</string>
-    <string name="android_dlg_error_title">@*android:string/dlg_error_title</string>
-    <string name="android_usb_storage_error_message">@*android:string/usb_storage_error_message</string>
-    <string name="android_ringtone_picker_title">@*android:string/ringtone_picker_title</string>
     <string name="android_volume_icon_description_bluetooth">@*android:string/volume_icon_description_bluetooth</string>
     <string name="android_volume_icon_description_ringer">@*android:string/volume_icon_description_ringer</string>
     <string name="android_volume_icon_description_incall">@*android:string/volume_icon_description_incall</string>
@@ -237,20 +199,18 @@
     <string name="android_text_copied">@*android:string/text_copied</string>
 
     <!-- array-->
-        <!-- public -->
+    <!-- public -->
     <array name="android_config_mobile_hotspot_provision_app">@*android:array/config_mobile_hotspot_provision_app</array>
     <array name="android_config_virtualKeyVibePattern">@*android:array/config_virtualKeyVibePattern</array>  
     <array name="android_common_nicknames">@*android:array/common_nicknames</array> 
 
     <!-- integer -->
-         <!-- public -->
+    <!-- public -->
     <integer name="android_preference_fragment_scrollbarStyle">@*android:integer/preference_fragment_scrollbarStyle</integer> 
-    <integer name="android_config_criticalBatteryWarningLevel">@*android:integer/config_criticalBatteryWarningLevel</integer>
-    <integer name="android_config_lowBatteryCloseWarningLevel">@*android:integer/config_lowBatteryCloseWarningLevel</integer>
-    <integer name="android_config_lowBatteryWarningLevel">@*android:integer/config_lowBatteryWarningLevel</integer>
+    <integer name="android_config_safe_media_volume_index">@*android:integer/config_safe_media_volume_index</integer>
 
     <!-- anim -->
-         <!-- public -->
+    <!-- public -->
     <item type="anim" name="android_push_down_in">@*android:anim/push_down_in</item>
     <item type="anim" name="android_push_down_out">@*android:anim/push_down_out</item>
     <item type="anim" name="android_push_up_in">@*android:anim/push_up_in</item>
@@ -260,12 +220,12 @@
     <item type="layout" name="android_screen_simple">@*android:layout/screen_simple</item>
 
     <!-- raw-->
-        <!-- public -->
+    <!-- public -->
     <item type="raw" name="android_fallbackring">@*android:raw/fallbackring</item>
 
     <!-- xml -->   
     <item type="xml" name="android_password_kbd_symbols_shift">@*android:xml/password_kbd_symbols_shift</item>
-        <!-- public -->
+    <!-- public -->
     <item type="xml" name="android_apns">@*android:xml/apns</item>
 
 </resources>

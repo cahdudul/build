@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/* *****************************************************************************
+** File: - actionbar_themes
+** VENDOR_EDIT
+** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
+** 
+** Abstract: actionabr's params
+** 
+** Version: 1
+** Date created: 10:30:00,22/6/2012
+** Author: Kaiyu.Zhong@Plf.Framework.SDK
+** 
+** ******************************* Revision History: ***************************
+**      <author>                <date>          <desc>
+**      Kaiyu.Zhong         2013/11/18      create
+** *****************************************************************************
+*/
+-->
+<resources>
+    <dimen name="oppo_volume_panel_minwidth">342dip</dimen>  
+    <dimen name="oppo_volume_panel_expand_button_margin_left">-33dip</dimen>
+    <dimen name="oppo_volume_panel_height">74dip</dimen>
+    <dimen name="oppo_volume_panel_stream_padding_left">9dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_padding_left">8dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_padding_right">2dip</dimen>
+    <dimen name="oppo_volume_panel_seekbar_height">30dip</dimen>
+    <dimen name="oppo_volume_panel_text_padding_left">8dip</dimen>
+    <dimen name="oppo_volume_panel_expand_button_padding_right">9dip</dimen>	
+</resources>

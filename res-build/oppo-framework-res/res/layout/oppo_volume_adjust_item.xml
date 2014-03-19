@@ -13,80 +13,72 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!--
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="80dip"
-    android:orientation="vertical"
-    android:layout_marginTop="8dip"
-    android:layout_marginBottom="8dip"
-    android:gravity="center_horizontal">
-
-    <TextView
-    	android:id="@+id/oppo_stream_title"
-    	android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dip"
-        style="?android:attr/textAppearanceMedium"
-        android:textColor="@oppo:color/oppo_alert_dialog_title_text_color"
-        android:text="@*android:string/volume_icon_description_ringer"
-        />
-
-    <ImageView
-        android:id="@+id/oppo_stream_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dip"
-        android:background="?android:attr/selectableItemBackground"
-        />
-
-    <SeekBar
-        android:id="@+id/oppo_seekbar"
-        android:layout_width="256dip"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dip"
-        android:layout_marginBottom="20dip"
-        android:paddingLeft="15dip"
-        android:paddingRight="15dip"
-        android:layout_marginLeft="20dip"
-        android:layout_marginRight="20dip" />
-
-
-</LinearLayout>
--->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="horizontal"
-    android:layout_marginTop="0dip"
-    android:layout_marginBottom="0dip">
+    android:orientation="vertical">
 
-		<TextView
-        android:id="@+id/oppo_stream_title"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone"  
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+    	
+        <ImageView
+            android:id="@+id/oppo_stream_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/oppo_volume_panel_height"
+            android:paddingLeft="@dimen/oppo_volume_panel_stream_padding_left"
+            android:layout_gravity="center_vertical"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/oppo_volume_panel_seekbar_padding_left"
+            android:paddingRight="@dimen/oppo_volume_panel_seekbar_padding_right"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/oppo_stream_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/oppo_volume_panel_text_padding_left"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black"
+                android:visibility="visible"
+                />
+
+            <android.widget.OppoSeekBar
+                android:id="@+id/oppo_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oppo_volume_panel_seekbar_height"
+                style="@oppo:style/Widget.OPPO.SeekBar"
+                />
+        </LinearLayout>
+
+       	<ImageView
+            android:id="@+id/expand_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/oppo_volume_panel_expand_button_padding_right"
+            android:src="@drawable/oppo_volume_panel_expand_settings"
+            android:focusable="true"
+            android:visibility="invisible"
         />
-        
-    <ImageView
-        android:id="@+id/oppo_stream_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dip"
-        android:paddingTop="0dip"
-        android:layout_gravity="center_vertical"
-        />
-        
-    <SeekBar
-        android:id="@+id/oppo_seekbar"
+
+    </LinearLayout>	    
+
+    <ImageView 
+        android:id="@+id/expand_divider"
         android:layout_width="match_parent"
-        android:layout_height="50dip"
-        android:paddingTop="0dip"
-        android:paddingLeft="11dip"
-        android:paddingRight="11dip"
-        style="@oppo:style/Widget.OPPO.SeekBar"/>
-
+        android:layout_height="wrap_content"
+        android:src="@drawable/oppo_menu_divider_horizontal_bright"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        />
 </LinearLayout>
  
 

@@ -1,23 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 
-/* *****************************************************************************
-** File: - oppo_touchsearch_themes.xml
-** VENDOR_EDIT
-** Copyright (C), 2008-2012, OPPO Mobile Comm Corp., Ltd
-** 
-** Abstract: Touch Search's params used to customize OPPO GUI
-** 
-** Version: 1
-** Date created: 10:30:00, 2010/09/10
-** Author: Hu Zhaohui@Platform.SDK
-** 
-** ******************************* Revision History: ***************************
-** 		<author>	    		<date>			<desc>
-**   Hu Zhaohui      2010/09/10    create
-** *****************************************************************************
-*/
+/********************************************************************************
+ ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
+ ** VENDOR_EDIT, All rights reserved.
+ ** 
+ ** File: - oppo_touchsearch_themes.xml
+ ** Description: 
+ **     OppoTouchSearchView's params used to customize OPPO GUI
+ **     
+ ** Version: 1.0
+ ** Date: 2010-09-10
+ ** Author: Zhaohui.Hu@Plf.Framework.SDK
+ ** 
+ ** =============================== Revision History: ============================
+ ** <author>                        <data>       <version>   <desc>
+ ** ==============================================================================
+ ** Zhaohui.Hu@Plf.Framework.SDK    2010-09-10   1.0         Create this moudle
+ ********************************************************************************/
 -->
 <resources>
+
+    <!-- color -->
+    <color name="oppo_touchsearch_popupwin_main_textcolor">#FFFFFFFF</color>
+    <color name="oppo_touchsearch_popupwin_sub_textcolor">#FFFFFFFF</color>
+
     <!-- dimen -->
     <dimen name="oppo_touchsearch_popupwin_default_width">50dp</dimen>
     <dimen name="oppo_touchsearch_popupwin_default_height">50dp</dimen>
@@ -26,11 +32,9 @@
     <dimen name="oppo_touchsearch_popupwin_top_margin">115dp</dimen>
     <dimen name="oppo_touchsearch_popupwin_right_margin">120dp</dimen>
     <dimen name="oppo_touchsearch_char_offset">0dp</dimen>
-    
+
     <!-- integer -->
     <integer name="oppo_touchsearch_popupwin_default_top_mincoordinate">60</integer>
     <integer name="oppo_touchsearch_popupwin_default_textsize">23</integer>
-    
-    <!-- color -->
-    <color name="oppo_touchsearch_popupwin_default_textcolor">#FFFFFFFF</color>
+
 </resources>

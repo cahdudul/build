@@ -125,7 +125,7 @@
                         android:gravity="center"
                         android:singleLine="true"
                         android:textSize="14sp"
-                        android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                        android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                         android:ellipsize="middle"
                         android:visibility="gone"
                     />
@@ -141,7 +141,7 @@
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"
                 android:layout_weight="1"
-                android:textColor="@oppo:color/oppo_status_bar_latest_event_title_color"
+                android:textColor="@oppo:color/oppo_statusbar_latest_event_title_color"
                 />
             <ViewStub
                 android:id="@+id/time"
@@ -176,7 +176,7 @@
             android:fadingEdge="horizontal"
             android:ellipsize="marquee"
             android:visibility="gone"
-            android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+            android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
             />
         <ProgressBar
             android:id="@android:id/progress"
@@ -206,7 +206,7 @@
                 android:singleLine="true"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"
-                android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                 />
 			
             <!--Hejiamiao@Keyguard.GrapSrv.StatusBar, 2012/09/29, add text color for theme change -->
@@ -219,7 +219,7 @@
                 android:singleLine="true"
                 android:gravity="center"
                 android:paddingLeft="8dp"
-                android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                 />
 			
             <ImageView android:id="@+id/right_icon"

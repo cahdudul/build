@@ -45,7 +45,7 @@ This is an optimized layout for a screen with the Action Bar enabled.
         android:layout_height="0dip"
         android:layout_weight="1"
         android:foregroundGravity="fill_horizontal|top"
-        android:foreground="?android:attr/windowContentOverlay" />
+        android:foreground="?oppo:attr/oppoWindowContentOverlay" />
     <com.android.internal.widget.ActionBarContainer android:id="@*android:id/split_action_bar"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"

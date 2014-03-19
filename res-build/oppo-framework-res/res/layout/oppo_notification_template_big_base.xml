@@ -57,7 +57,7 @@
                     android:ellipsize="marquee"
                     android:fadingEdge="horizontal"
                     android:layout_weight="1"
-                    android:textColor="@oppo:color/oppo_status_bar_latest_event_title_color"
+                    android:textColor="@oppo:color/oppo_statusbar_latest_event_title_color"
                     />
                 <ViewStub android:id="@+id/time"
                     android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                 android:fadingEdge="horizontal"
                 android:ellipsize="marquee"
                 android:visibility="gone"
-                android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                 />
             <TextView android:id="@+id/big_text"
                 android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent"
@@ -98,7 +98,7 @@
                 android:layout_marginRight="8dp"
                 android:singleLine="false"
                 android:visibility="gone"
-                android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                 />
             <LinearLayout
                 android:id="@+id/line3"
@@ -119,7 +119,7 @@
                     android:singleLine="true"
                     android:ellipsize="marquee"
                     android:fadingEdge="horizontal"
-                    android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                    android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                     />
                 <TextView android:id="@+id/info"
                     android:textAppearance="@*android:style/TextAppearance.StatusBar.EventContent.Info"
@@ -130,7 +130,7 @@
                     android:singleLine="true"
                     android:gravity="center"
                     android:paddingLeft="8dp"
-                    android:textColor="@oppo:color/oppo_status_bar_latest_event_content_color"
+                    android:textColor="@oppo:color/oppo_statusbar_latest_event_content_color"
                     />
                 <ImageView android:id="@+id/right_icon"
                     android:layout_width="16dp"

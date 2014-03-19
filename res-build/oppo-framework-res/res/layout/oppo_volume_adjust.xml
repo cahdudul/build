@@ -19,54 +19,23 @@
     android:layout_height="wrap_content">
     <LinearLayout
         android:id="@+id/visible_panel"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/oppo_volume_panel_minwidth"
         android:layout_height="wrap_content"
-        android:background="@drawable/oppo_popup_alertdialog_content_full"
+        android:background="@drawable/oppo_alertdialog_content_full_background"
         android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
         >
-				<!--
+
         <LinearLayout
             android:id="@+id/slider_group"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content" 996px
-            android:layout_weight="1"  207px
-            android:orientation="vertical"
-            android:background="#FF00FF00"
-            >-->
-            
-        
-        <LinearLayout
-            android:id="@+id/slider_group"
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center_vertical"
             >
             <!-- Sliders go here -->
         </LinearLayout>
-				
-        <ImageView
-            android:id="@+id/expand_button_divider"
-            android:src="?android:attr/dividerVertical"
-            android:layout_width="wrap_content"
-            android:layout_height="32dip"
-            android:scaleType="fitXY"
-            android:layout_gravity="top"
-            android:layout_marginTop="16dip"
-            android:layout_marginBottom="16dip"
-            android:visibility="gone"  
-            />
-
-        <ImageView
-            android:id="@+id/expand_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:padding="16dip"
-            android:background="?android:attr/selectableItemBackground"
-            android:src="@*android:drawable/ic_sysbar_quicksettings"
-            android:visibility="gone"  
-            />
 					
     </LinearLayout>
 </FrameLayout>

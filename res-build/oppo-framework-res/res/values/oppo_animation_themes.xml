@@ -29,8 +29,6 @@
     <item type="interpolator" name="oppo_multiselect_interpolator_right_out">@android:interpolator/decelerate_quad</item>
     <item type="interpolator" name="oppo_multiselect_interpolator_fade_in">@android:interpolator/decelerate_quint</item>
     <item type="interpolator" name="oppo_multiselect_interpolator_fade_out">@android:interpolator/accelerate_quint</item>
-    <item type="interpolator" name="oppo_multiselect_interpolator_accelerate">@android:interpolator/accelerate_quad</item>
-    <item type="interpolator" name="oppo_multiselect_interpolator_decelerate">@android:interpolator/decelerate_quad</item>
 
     <!-- integer -->
     <integer name="oppo_multiselect_delay">150</integer>

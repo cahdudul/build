@@ -60,6 +60,16 @@
                 android:textSize="@dimen/oppo_searchview_text_hint_size"
                 android:textColorHint="@oppo:color/oppo_searchview_text_hint_color_normal"
             />
+
+            <ImageView
+                android:id="@+id/oppo_search_src_voice"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@drawable/oppo_searchview_voice"
+                android:layout_marginRight="@dimen/oppo_searchview_voice_padding_right"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+            />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

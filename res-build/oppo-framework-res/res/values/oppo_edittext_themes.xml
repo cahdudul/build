@@ -20,15 +20,6 @@
 
 <resources>
 	
-    <!-- EditText's cursor -->
-    <integer name="oppo_cursor_width">3</integer>
-	  
-    <!-- EditText's text color -->
-    <!-- <color name="oppo_edit_text_color">#ff000000</color> -->
-    
-    <!-- EditText's text selected res -->
-    <integer name="oppo_selector_inset">19</integer>
-    <!-- Jianhua.Lin@Plf.Framework.SDK, 2013-03-07,add for textColorHighlight -->
     <color name="oppo_edittext_default_highlighted">#662ECE71</color>
     <dimen name="oppo_textview_cursorOffset">1dip</dimen>
 </resources>

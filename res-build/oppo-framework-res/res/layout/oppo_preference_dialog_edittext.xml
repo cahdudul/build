@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- Layout used as the dialog's content View for OppoEditTextPreference. -->
+<!-- Layout used as the dialog's content View for EditTextPreference. -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,11 +23,11 @@
     android:overScrollMode="ifContentScrolls">
 
     <LinearLayout
-        android:id="@+id/edittext_container"
+        android:id="@*android:id/edittext_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
         android:layout_marginTop="12dp"
         android:layout_marginBottom="21dp"
         android:orientation="vertical">

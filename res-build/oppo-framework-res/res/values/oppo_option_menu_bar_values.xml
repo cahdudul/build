@@ -2,54 +2,6 @@
 <resources>
 
     <eat-comment />
-    
-    <style name="OppoOptionMenuBarTheme">
-        <item name="oppo:itemDefaultBackground">@oppo:drawable/oppo_option_menu_bar_major_btn</item>
-        <item name="oppo:itemLeftBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_left</item>
-        <item name="oppo:itemMiddleBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_middle</item>
-        <item name="oppo:itemRightBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_right</item>
-        <item name="oppo:itemMoreIcon">@oppo:drawable/oppo_option_menu_bar_icon_more</item>
-        <item name="oppo:majorOperationBackground">@oppo:drawable/oppo_option_menu_bar_major_operation_background</item>
-        <item name="oppo:itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector</item> 
-        <item name="oppo:fillLayoutSpace">true</item>
-    </style>
-
-    <style name="OppoOptionMenuBarTheme.Black">
-        <item name="oppo:itemDefaultBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_black</item>
-        <item name="oppo:itemLeftBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_left_black</item>
-        <item name="oppo:itemMiddleBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_middle_black</item>
-        <item name="oppo:itemRightBackground">@oppo:drawable/oppo_option_menu_bar_major_btn_right_black</item>
-        <item name="oppo:itemMoreIcon">@oppo:drawable/oppo_option_menu_bar_icon_more_black</item>
-        <item name="oppo:majorOperationBackground">@oppo:drawable/oppo_option_menu_bar_major_operation_background_black</item>
-        <item name="oppo:itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector_black</item>
-    </style>    
-
-    <style name="OppoOptionMenuBarTextAppearance">
-        <item name="android:textSize">@dimen/oppo_option_menu_bar_major_text_size</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:maxLines">1</item>
-        <!--
-        <item name="android:shadowColor">@color/shortcut_text_shadow_color</item>
-        <item name="android:shadowDx">0.0</item>
-        -->
-        <!-- <item name="android:shadowDy">1.0</item> -->
-        <!-- <item name="android:shadowRadius">0.3</item> -->
-    </style>
-
-    <style name="OppoOptionMenuBarMoreTextAppearance">
-        <item name="android:textSize">@dimen/oppo_option_menu_bar_more_text_size</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/oppo_option_menu_bar_more_text_color_selector</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:gravity">center_vertical|center_horizontal</item>
-        <item name="android:ellipsize">end</item>
-        <!--
-        <item name="android:shadowColor">@color/shortcut_text_shadow_color</item>
-        <item name="android:shadowDx">0.0</item>
-        -->
-        <!-- <item name="android:shadowDy">1.0</item> -->
-        <!-- <item name="android:shadowRadius">0.3</item> -->
-    </style>
 
     <!-- dimensions -->
     <dimen name="oppo_option_menu_bar_height">68dip</dimen>

@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 
-<!-- Layout used by OppoCheckBoxPreference for the checkbox style. This is inflated
-     inside oppo.R.layout.oppo_preference. -->
+<!-- Layout used by CheckBoxPreference for the checkbox style. This is inflated
+     inside android.R.layout.preference. -->
 <CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/checkbox"
     android:layout_width="wrap_content"

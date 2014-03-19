@@ -15,7 +15,7 @@
         android:paddingTop="10dip">
         <Button
             android:id="@+id/solar_btn"
-            android:text="@string/solar_calendar"
+            android:text="@string/oppo_solar_calendar_text"
             android:textColor="@color/oppo_numberpicker_text_color"
             android:layout_width="wrap_content"
             android:layout_gravity="center"
@@ -23,7 +23,7 @@
             android:background="@drawable/oppo_datepicker_button" />
         <Button
             android:id="@+id/lunar_btn"
-            android:text="@string/lunar_calendar"
+            android:text="@string/oppo_lunar_calendar_text"
             android:textColor="@color/oppo_numberpicker_text_color"
             android:layout_gravity="center"
             android:layout_width="wrap_content"

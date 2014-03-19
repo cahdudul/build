@@ -79,7 +79,7 @@
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal"
-            android:background="@drawable/oppo_textfield_search"
+            android:background="@drawable/oppo_searchview_edit_background"
             >
 
             <view class="com.oppo.widget.OppoSearchView$SearchAutoComplete"

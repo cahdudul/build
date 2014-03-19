@@ -120,17 +120,18 @@
 
     <string-array name="oppo_permissions_prompt">
         <item>拨打电话</item>
-        <item>访问通话记录</item>
-        <item>访问联系人信息</item>
-        <item>访问短信、彩信信息</item>
+        <item>读取通话记录</item>
+        <item>读取联系人信息</item>
+        <item>读取短信/彩信记录</item>
         <item>发送短信</item>
-        <item>打开/关闭数据网络</item>
-        <item>打开/关闭WIFI</item>
-        <item>打开/关闭蓝牙</item>
-        <item>获得手机位置</item>
-        <item>启用拍照、摄像</item>
-        <item>录音</item>
-        <item>打开NFC</item>
+        <item>发送彩信</item>
+        <item>打开或关闭数据网络</item>
+        <item>打开或关闭WLAN</item>
+        <item>打开或关闭蓝牙</item>
+        <item>使用GPS定位（注：软件还可以通过其他途径获取位置信息）</item>
+        <item>使用摄像头</item>
+        <item>录音或通话录音</item>
+        <item>打开或关闭NFC</item>
     </string-array>
     
 <!-- #ifdef VENDOR_EDIT -->

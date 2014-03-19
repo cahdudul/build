@@ -19,14 +19,6 @@
 -->
 <resources>
 
-    <!-- =======================add by danjianjun for merger oppo framework   2012-03-05===============-->
-
-    <!--yulongfei add begin on 20110412 -->
-    <!-- text size of the empty file tag -->
-    <dimen name="oppo_empty_text_size">20sp</dimen>
-    <!--yulongfei add end on 20110412 -->
-
-    <!-- luoyaojun add begin for lock -->
     
 <!-- #ifdef VENDOR_EDIT -->
 <!-- Pihe.Wu@Prd.MidWare.Theme, 2012/07/12, Add for  -->
@@ -44,9 +36,6 @@
     <dimen name="oppo_password_keyboard_qwerty_verticalGap">4dip</dimen>  
 <!-- #endif //VENDOR_EDIT -->
     
-    <dimen name="oppo_chip_padding">8dip</dimen>
-    <dimen name="oppo_chip_height">32dip</dimen>
-    <dimen name="oppo_chip_text_size">14sp</dimen>
     
     <dimen name="oppo_toolbar_text_item_height">38dp</dimen>
     <dimen name="oppo_toolbar_text_item_min_width">56dp</dimen>  

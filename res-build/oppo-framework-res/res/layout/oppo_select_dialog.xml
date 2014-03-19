@@ -29,7 +29,7 @@
     android:layout_height="match_parent"
     android:cacheColorHint="@null"
     android:background="#00000000"
-    android:divider="@drawable/oppo_divider_horizontal_dark_opaque"
+    android:divider="@drawable/oppo_divider_horizontal_default"
     android:scrollbars="vertical"
     android:overScrollMode="always"
     android:requiresFadingEdge="vertical"/>

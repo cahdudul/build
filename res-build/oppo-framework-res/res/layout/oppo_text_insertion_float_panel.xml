@@ -16,7 +16,7 @@ This is layout for the float panel of text view insertion.
 
         <TextView android:id="@+id/oppo_buttonSelect"
             style="@style/OppoTextViewFloatPanelButton"
-            android:text="@string/selectText"
+            android:text="@string/oppo_selecttext"
             />
         <ImageView android:id="@+id/oppo_separator1"
             android:layout_width="wrap_content"

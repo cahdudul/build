@@ -21,7 +21,7 @@
     android:layout_height="63dp"
     android:orientation="vertical">
     <com.oppo.widget.OppoEditText
-        android:id="@+id/rename_dialog_edit"
+        android:id="@+id/oppo_rename_dialog_edit"
         android:layout_height="40dp"
         android:layout_width="match_parent"
         android:layout_marginLeft="12dp"

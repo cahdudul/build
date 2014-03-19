@@ -20,8 +20,6 @@
 <resources>
     
     <!-- AlertDialog's title -->
-    <dimen name="oppo_dialog_width">341dp</dimen>
-    <dimen name="oppo_dialog_title_min_height">58dip</dimen>
     <dimen name="oppo_dialog_buttonPanel_height">59dip</dimen>
   
 </resources>

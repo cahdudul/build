@@ -14,14 +14,15 @@
      limitations under the License.
 -->
 
-<!-- Layout used for OppoPreferenceCategory in an OppoPreferenceActivity. -->
+<!-- Layout used for PreferenceCategory in a PreferenceActivity. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <TextView style="@style/OppoPreferenceCategoryStyle.Title"
-        android:id="@+id/title"/>
+        android:paddingTop="@dimen/oppo_preference_category_text_padding_top"
+        android:paddingBottom="@dimen/oppo_preference_category_text_padding_bottom"/>
 
     <ImageView style="@style/OppoPreferenceCategoryStyle.Divider" />
 

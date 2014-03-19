@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <!-- Layout of date picker-->
-
 <!-- Warning: everything within the "pickers" layout is removed and re-ordered
      depending on the date format selected by the user.
 -->
@@ -18,40 +15,35 @@
     android:paddingLeft="8dip"
     android:paddingRight="8dip">
     
-        <!-- Year -->
-        <com.oppo.widget.OppoNumberPicker
-            android:id="@+id/month"
-			android:layout_width="@oppo:dimen/oppo_small_numberpicker_width"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="1dip"
-            android:layout_marginRight="1dip"
-            android:focusable="true"
-            
-            android:focusableInTouchMode="true"
-            />
+    <!-- Year -->
+    <com.oppo.widget.OppoNumberPicker
+        android:id="@+id/month"
+        android:layout_width="@oppo:dimen/oppo_small_numberpicker_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
-        <!-- Month -->
-        <com.oppo.widget.OppoNumberPicker
-            android:id="@+id/day"
-        	android:layout_width="@oppo:dimen/oppo_small_numberpicker_width"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="1dip"
-            android:layout_marginRight="1dip"
-            android:focusable="true"
-            
-            android:focusableInTouchMode="true"
-            />
+    <!-- Month -->
+    <com.oppo.widget.OppoNumberPicker
+        android:id="@+id/day"
+        android:layout_width="@oppo:dimen/oppo_small_numberpicker_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 
-        <!-- Day -->
-        <com.oppo.widget.OppoNumberPicker
-            android:id="@+id/year"
-        	android:layout_width="@oppo:dimen/oppo_big_numberpicker_width"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="1dip"
-            android:layout_marginRight="1dip"
-            android:focusable="true"
-            oppo:clipLength="@oppo:dimen/oppo_big_numberpicker_clipLength"
+    <!-- Day -->
+    <com.oppo.widget.OppoNumberPicker
+        android:id="@+id/year"
+        android:layout_width="@oppo:dimen/oppo_big_numberpicker_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        oppo:clipLength="@oppo:dimen/oppo_big_numberpicker_clipLength" />
 
-            android:focusableInTouchMode="true"
-            />
 </LinearLayout>

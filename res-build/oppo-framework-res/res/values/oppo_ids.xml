@@ -17,61 +17,20 @@
 */
 -->
 <resources>
-	
-	 <!-- add by danjianjun for merger oppo framework   2012-03-05-->
-  <!-- file begin -->
-  <item type="id" name="detail_icon" />
-  <item type="id" name="detail_title" />
-  <item type="id" name="detail_text" />
-  <item type="id" name="list_icon" />
-  <item type="id" name="list_name" />
-  <item type="id" name="filesave_path"  />
-  <item type="id" name="filesave_emptyFile" />
-  <item type="id" name="filesave_list"  />
-  <item type="id" name="filesave_new_folder"  />
-  <item type="id" name="filesave_back"  />
-  <item type="id" name="filesave_confirm"  />
-  <item type="id" name="filename_username_view"  />
-  <item type="id" name="filename_username_edit" />
-  <!--  zhusj adding for id -->
-  <item type="id" name="sysfivekey_up" />
-  <item type="id" name="sysfivekey_down" />
-  <item type="id" name="sysfivekey_left" />
-  <item type="id" name="sysfivekey_right" />
-  <item type="id" name="sysfivekey_ok" />
-  <item type="id" name="sysfivekey_ll" />  
-  <!--  luoyaojun  adding for id -->  
-  <!-- The EditText for entries in the EditContactActivity -->
 
-  <!-- add end by danjianjun 2012-03-05-->
-  <item type="id" name="img" />
-  <item type="id" name="modify" />
-  <item type="id" name="modify_button" /> 
-  <item type="id" name="screenLocked" />
   <item type="id" name="show_more_icon" />
   <item type="id" name="show_more_text" />
-  <item type="id" name="status1" />
-  <item type="id" name="oppo_tabhost" />
   
   <item type="id" name="perm_icon" />
   <item type="id" name="am_pm" />
-  
-  
-  <item type="id" name="id_usbnoasklayout" />
-  <!-- layout/oppo_mark_list_title.xml  ids -->
-  <item type="id" name="label" />
-  <item type="id" name="mark_all" />
-  <item type="id" name="mark_none" />
-  <item type="id" name="marked_count" />
+
   <!-- layout/oppo_rename_dialog_layout.xml id -->
-  <item type="id" name="rename_dialog_edit" />
+  <item type="id" name="oppo_rename_dialog_edit" />
   <!-- layout/oppo_preference.xml id -->
   <item type="id" name="title" />
   <item type="id" name="summary" />
   <!-- layout/oppo_preference_dialog_edittext.xml id -->
   <item type="id" name="edittext_container" />
-  <!-- layout/oppo_preference_widget_seekbar.xml id -->
-  <item type="id" name="seekbar" />
   <item type="id" name="widget_frame" />
   <item type="id" name="oppo_option_menu_bar_mask_view" />
   <!-- layout/oppo_flow_button.xml id -->
@@ -88,29 +47,15 @@
   <item type="id" name="ButtonNegative" />
   <item type="id" name="ButtonNeutral" />
   <item type="id" name="shortcuts_list" />
-  <item type="id" name="clip_close" />
-  <item type="id" name="clip_clear_all" />
-  <item type="id" name="clip_mode_copy" />
-  <item type="id" name="clip_mode_cut" />
-  <item type="id" name="clip_function_tip" />
-  <item type="id" name="clip_files" />
-  <item type="id" name="aggregate_badge" />
-  <item type="id" name="phonetic_name" />
-  <item type="id" name="star" />
-  <item type="id" name="photo" />
-  <item type="id" name="presence" />
-  <item type="id" name="status_date" />
-  <item type="id" name="new_build_button" />
-  <item type="id" name="phone_button" />
-  <item type="id" name="contact_button" />
-  <item type="id" name="display_telephonenumber_or_group" />
+
+
   <item type="id" name="datePicker_btn" />
   <item type="id" name="solar_btn" />
   <item type="id" name="lunar_btn" />
   <item type="id" name="notitle_dialog_message" />
   <item type="id" name="name" />
   <item type="id" name="status" />
-  <item type="id" name="expand_button_divider" />
+  <item type="id" name="expand_divider" />
   <item type="id" name="expand_button" />
   <item type="id" name="slider_group" />
   <item type="id" name="increment" />
@@ -228,7 +173,7 @@
   <item type="id" name="MoreOperationArrowLeft" />
   <item type="id" name="MoreOperationArrowRight" />
   <item type="id" name="message" />
-  <item type="id" name="oppolistview_scrollchoice_checkbox" />
+  <item type="id" name="oppo_listview_scrollchoice_checkbox" />
   <item type="id" name="emptybottle" />
-  
+  <item type="id" name="oppo_search_src_voice" />
 </resources>

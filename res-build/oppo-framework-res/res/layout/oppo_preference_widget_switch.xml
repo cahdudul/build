@@ -14,15 +14,15 @@
      limitations under the License.
 -->
 
-<!-- Layout used by OppoSwitchPreference for the toggle widget style. This is inflated
+<!-- Layout used by SwitchPreference for the toggle widget style. This is inflated
      inside android.R.layout.preference. -->
-<com.oppo.widget.OppoSwitch xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@android:id/checkbox" 
+<Switch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*android:id/switchWidget" 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical"
-    android:layout_marginLeft="@dimen/oppo_preference_switch_margin_left"
-    android:layout_marginRight="@dimen/oppo_preference_switch_margin_right"
-    android:paddingRight="@dimen/oppo_preference_switch_padding_right"
+    android:layout_marginLeft="@dimen/android_preference_switch_margin_left"
+    android:layout_marginRight="@dimen/android_preference_switch_margin_right"
+    android:paddingRight="@dimen/oppo_preference_widget_padding_right"
     android:focusable="false" />
 

@@ -20,23 +20,11 @@
 <resources>
 
     <!-- =================add by danjianjun for merger oppo framework   2012-03-05=====================-->
-    <color name="oppo_overlay_transparent_background">#FFFF00FF</color>
-    <color name="oppo_widget_background_color">#fff7fbff</color>
+
     <color name="oppo_transparence">#00000000</color> 
-    <color name="oppo_text_disabled_color">@color/oppo_actionbar_and_list_big_text_color_disable</color>
-    <color name="oppo_multilist_primary_text_dark">#ffebebeb</color>
-    <drawable name="oppo_collapsitem_bg">#FFE5E5E5</drawable>
+    <color name="oppo_text_color_disabled">@color/oppo_actionbar_and_list_big_text_color_disable</color>
     <!-- ================add end by danjianjun 2012-03-05====================-->
-    <!-- OPPO fanzc add 2011.11.16 for Dailer's text color -->
-    <color name="oppo_dial_text_color">#ffffffff</color>
-    <!-- End of OPPO fanzc add -->  
     
-    <!-- yongdong,zhang@ComUI.Theme, 2012/04/16, add for theme3.0(MMS color)-->
-    <color name="mms_receive_text_color">#ff4f4f4f</color>
-    <color name="mms_send_text_color">#ffffffff</color>
-    <color name="mms_send_btn_color">#ff545454</color>
-    <color name="mms_text_time_color">#ff888888</color>
-    <color name="mms_header_time_color">#ff75787b</color>
     <!--oppotextview's default color--> 
     <color name="oppo_textview_default_normal">@color/oppo_actionbar_and_list_big_text_color</color>
     <color name="oppo_textview_default_disable">@color/oppo_actionbar_and_list_big_text_color_disable</color>
@@ -54,32 +42,23 @@
 <!-- #endif //VENDOR_EDIT -->
     
     <!-- OPPO 2012/06/22 luoyaojun add end. -->
-  	<!-- #ifdef VENDOR_EDIT -->
-	<!-- Pihe.Wu@Prd.MidWare.Theme, 2012/08/06, Add for  -->
-  	<color name="oppo_status_bar_latest_event_title_color">#B4B4B4</color>
-	<color name="oppo_status_bar_latest_event_content_color">#6a6c6e</color>
-	<color name="oppo_status_bar_latest_event_time_color">#6a6c6e</color>  
-	<color name="oppo_dark_header_text_color">#141414</color>
-	<!-- #endif //VENDOR_EDIT -->  
-   <color name="oppo_textcolor_hint">#ffc4cad5</color>
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- Pihe.Wu@Prd.MidWare.Theme, 2012/08/06, Add for  -->
+    <color name="oppo_statusbar_latest_event_title_color">#B4B4B4</color>
+    <color name="oppo_statusbar_latest_event_content_color">#6a6c6e</color>
+    <color name="oppo_status_bar_latest_event_time_color">#6a6c6e</color>
+    <color name="oppo_dark_header_text_color">#141414</color>
+    <!-- #endif //VENDOR_EDIT -->
    <color name="oppo_primary_text_disable_only">#ff141414</color>   
    
-   <color name="oppo_hint_foreground_light">#808080</color>
    <!--jianfeng.song@Plf.framework.GlobalActions, 2013/2/22-->
    <color name="oppo_global_actions_silent_text_select">#0B984C</color>
    <color name="oppo_global_actions_silent_text_unselect">#8A9292</color>
    <color name="oppo_transparent">#00ffffff</color>
    
-   <!--hejiamiao add-->
-   <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
    <!-- 2013/03/08 luoyaojun add begin for [background of window] -->
    <color name="oppo_window_background_color">#e9e9e9</color>
    <!-- 2013/03/08 luoyaojun add end -->
-
-<!-- #ifdef VENDOR_EDIT -->
-<!-- Jianhui.Yu@Plf.Framework.SDK, 2013/05/15, Add for OppoRecipientTextView -->
-   <color name="oppo_recipient_text_color">#ececec</color>
-<!-- #endif //VENDOR_EDIT -->
 
 </resources>
 

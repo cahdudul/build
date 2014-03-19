@@ -12,7 +12,7 @@
 
     <TextView
         android:id="@+id/OppoOptionMenuBarGalleryItemTextView0"
-        style="@style/OppoOptionMenuBarMoreTextAppearance"
+        style="@style/OppoOptionMenuBarTextAppearance.More"
         android:layout_width="0dip"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
@@ -31,7 +31,7 @@
 
     <TextView
         android:id="@+id/OppoOptionMenuBarGalleryItemTextView1"
-        style="@style/OppoOptionMenuBarMoreTextAppearance"
+        style="@style/OppoOptionMenuBarTextAppearance.More"
         android:layout_width="0dip"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
@@ -50,7 +50,7 @@
 
     <TextView
         android:id="@+id/OppoOptionMenuBarGalleryItemTextView2"
-        style="@style/OppoOptionMenuBarMoreTextAppearance"
+        style="@style/OppoOptionMenuBarTextAppearance.More"
         android:layout_width="0dip"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
@@ -69,7 +69,7 @@
 
     <TextView
         android:id="@+id/OppoOptionMenuBarGalleryItemTextView3"
-        style="@style/OppoOptionMenuBarMoreTextAppearance"
+        style="@style/OppoOptionMenuBarTextAppearance.More"
         android:layout_width="0dip"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"
