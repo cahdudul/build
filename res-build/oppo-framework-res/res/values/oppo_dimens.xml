@@ -49,7 +49,7 @@
     <dimen name="oppo_magnifier_finger_offset">70dip</dimen>
     <dimen name="oppo_magnifier_paint_border_width">4dp</dimen>
     <dimen name="oppo_textview_floatpanel_button_height">40dip</dimen>
-    <dimen name="oppo_textview_floatpanel_button_text_size">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
+    <dimen name="oppo_textview_floatpanel_button_text_size">15sp</dimen>
     
     <!-- JianJun.Dan@Plf.Framework.SDK, 2013-03-29  -->
     <dimen name="oppo_search_margin_left">0dip</dimen>

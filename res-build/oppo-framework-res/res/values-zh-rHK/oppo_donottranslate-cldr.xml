@@ -97,4 +97,35 @@
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_ymd">%4$s 年 %2$s %3$s 日 %5$s %1$s – %9$s 年 %7$s %8$s 日 %10$s %6$s</string>
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_mdy">%2$s %3$s 日 %4$s 年 %5$s %1$s – %7$s %8$s 日 %9$s 年 %10$s %6$s</string>
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_dmy">%3$s 日 %2$s %4$s 年 %5$s %1$s – %8$s 日 %7$s %9$s 年 %10$s %6$s</string>
+    <!-- from android 4.2 -->
+    <string name="oppo_twelve_hour_time_format">h:mm a</string>
+    <!-- for EXP -->
+    <string-array name="oppo_oppotime_month_number_chinese">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="oppo_oppotime_month_number_digit">
+        <item>1 月</item>
+        <item>2 月</item>
+        <item>3 月</item>
+        <item>4 月</item>
+        <item>5 月</item>
+        <item>6 月</item>
+        <item>7 月</item>
+        <item>8 月</item>
+        <item>9 月</item>
+        <item>10 月</item>
+        <item>11 月</item>
+        <item>12 月</item>
+    </string-array>
 </resources>

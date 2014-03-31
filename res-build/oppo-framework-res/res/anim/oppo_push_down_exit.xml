@@ -17,11 +17,12 @@
 
 <set xmlns:android="http://schemas.android.com/apk/res/android"
 	android:background="#ff000000"
+    android:shareInterpolator="false"
 	android:zAdjustment="top">
 
     <translate
-	android:interpolator="@android:anim/accelerate_decelerate_interpolator"
-        android:duration="300"
+        android:interpolator="@oppo:anim/oppo_decelerate_interpolator"
+        android:duration="350"
         android:fromYDelta="0"
         android:toYDelta="100%p" />
     <!-- <alpha android:fromAlpha="0.0" android:toAlpha="1.0" -->

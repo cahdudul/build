@@ -30,8 +30,8 @@
         android:layout_gravity="center_vertical"
         android:layout_marginTop="8dip"
         android:layout_marginBottom="8dip"
-        android:layout_marginStart="8dip"
-        android:layout_marginEnd="8dip"
+        android:layout_marginStart="12dip"
+        android:layout_marginEnd="12dip"
         android:orientation="horizontal">
         <!-- Inner layout contains the app icon, button(s) and EditText -->
         <LinearLayout
@@ -63,7 +63,7 @@
 
             <ImageView
                 android:id="@+id/oppo_search_src_voice"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_width="wrap_content"
                 android:background="@drawable/oppo_searchview_voice"
                 android:layout_marginRight="@dimen/oppo_searchview_voice_padding_right"

@@ -49,7 +49,7 @@ This is layout for the float panel of text view insertion.
             />
         <TextView android:id="@+id/oppo_inputmethodSwitch"
             style="@style/OppoTextViewFloatPanelButton"
-            android:text="@*android:string/inputMethod"
+            android:text="@string/oppo_edittext_IME"
             />
     </LinearLayout>
     <ImageView android:id="@+id/oppo_arrow_up"

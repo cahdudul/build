@@ -21,12 +21,12 @@
 <resources>
 
     <!-- color -->
-    <color name="oppo_searchview_text_hint_color_normal">#ffbbc0c0</color>
+    <color name="oppo_searchview_text_hint_color_normal">#676767</color>
     <color name="oppo_searchview_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>    
 
     <!-- dimen -->
     <dimen name="oppo_searchview_text_hint_size">@oppo:dimen/oppo_normal_content_text_size_3</dimen>
-    <dimen name="oppo_searchview_text_size">@oppo:dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
-    <dimen name="oppo_searchview_voice_padding_right">10dip</dimen>
+    <dimen name="oppo_searchview_text_size">16dp</dimen>
+    <dimen name="oppo_searchview_voice_padding_right">0dip</dimen>
 
 </resources>

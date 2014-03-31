@@ -13,29 +13,48 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/visible_panel"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
+    <FrameLayout 
+        android:id="@+id/oppo_volumn_disk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/oppo_volumn_disk_margin_top"
+        android:background="@drawable/oppo_volume_progress_bg">
+        <com.oppo.widget.OppoVolumeProgress
+            android:id="@+id/oppo_volumn_progress"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/oppo_volumn_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/oppo_volume_icon_marginTop"/>
+        <TextView
+            android:id="@+id/oppo_volumn_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/oppo_volumn_title_marginTop"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/oppo_volumn_title_color"
+            android:textSize="@dimen/oppo_volumn_title_size"/>
+    </FrameLayout>
+
     <LinearLayout
-        android:id="@+id/visible_panel"
+        android:id="@+id/slider_group"
         android:layout_width="@dimen/oppo_volume_panel_minwidth"
         android:layout_height="wrap_content"
-        android:background="@drawable/oppo_alertdialog_content_full_background"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:background="@drawable/oppo_volume_panel_bg"
         >
-
-        <LinearLayout
-            android:id="@+id/slider_group"
-            android:layout_width="0dip"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center_vertical"
-            >
-            <!-- Sliders go here -->
-        </LinearLayout>
-					
+        <!-- Sliders go here -->
     </LinearLayout>
 </FrameLayout>

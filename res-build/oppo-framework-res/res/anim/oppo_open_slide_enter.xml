@@ -21,8 +21,8 @@
         android:shareInterpolator="false"
         android:zAdjustment="top">
     <translate android:fromXDelta="100%" android:toXDelta="0"
-        android:interpolator="@android:anim/decelerate_interpolator"
-        android:duration="200" 	
+        android:interpolator="@oppo:anim/oppo_decelerate_interpolator"
+        android:duration="400" 	
         android:fillEnabled="true"
         android:fillBefore="false" 
         android:fillAfter="true"/>

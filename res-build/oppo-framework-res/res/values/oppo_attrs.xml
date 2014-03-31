@@ -11,7 +11,7 @@
     <attr name="oppoDialogButtonTextAppearance" format="reference" />
 
     <attr name="oppoWindowContentOverlay" format="reference" />
-
+    
     <attr name="textAppearanceSubSmall" format="reference" />
 
     <attr name="textAppearanceDialogLarge" format="reference" />
@@ -42,8 +42,11 @@
     </declare-styleable>
 
     <declare-styleable name="OppoWindow">
-        <!--Changwei.Li@Plf.Framework.SDK: Flag indicating whether need to add mask view in decor view. -->
+        <!--Changwei.Li@Plf.SDK: Flag indicating whether need to add mask view in decor view. -->
         <attr name="oppoAddMaskView" format="boolean" />
+        <!--Jianjun.Dan@Plf.SDK: Flag indicating whether this window's Action Bar should overlay
+             application content. and reserve status bar interspace  -->
+        <attr name="oppoWindowActionBarAndStatusBarOverlay" format="boolean" />
     </declare-styleable>
 
     <!-- Default OppoTabWidget style. -->
@@ -329,6 +332,7 @@
             <enum name="never" value="3" />
         </attr>
         <attr name="itemMoreIcon" format="reference" />
+        <attr name="oppoItemMoreAnimation" format="reference" />
         <attr name="itemMajorTextColor" format="reference|color" />
         <attr name="majorOperationBackground" format="reference|color" />
     </declare-styleable>

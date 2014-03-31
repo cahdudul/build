@@ -36,5 +36,6 @@
     <integer name="oppo_multiselect_duration_choice">300</integer>
     <integer name="oppo_optionmenubar_duration">250</integer>
     <integer name="oppo_actionbar_duration">300</integer>
+    <integer name="oppo_progressbar_degrees">1440</integer>
 
 </resources>

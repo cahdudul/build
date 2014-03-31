@@ -22,7 +22,7 @@
     android:zAdjustment="normal">
     <scale
         android:interpolator="@android:anim/decelerate_interpolator"
-        android:duration="200"
+        android:duration="300"
         android:fromXScale="0.9"
         android:fromYScale="0.9"
         android:pivotX="50%"

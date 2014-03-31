@@ -24,6 +24,8 @@
     <string name="mmcmnc46001">中國聯通</string>
     <string name="mmcmnc46000">中國移動</string>
     <string name="mmcmnc46002">中國移動</string>
+    <string name="mmcmnc46003">中國電信</string>
+	  <string name="mmcmnc46007">中國移動</string>
     <string name="mmcmnc45406">數碼通</string>
     <string name="mmcmnc45410">新世界</string>
     <string name="mmcmnc45412">中國移動萬眾</string>
@@ -58,4 +60,9 @@
     <string name="oppo_month_year_day_wday" translatable="false">%1$s %2$s年%3$s日, %4$s</string>
     <string name="oppo_day_month_year_wday" translatable="false">%1$s日%2$s %3$s年, %4$s</string>
     <string name="oppo_day_year_month_wday" translatable="false">%1$s日%2$s年%3$s, %4$s</string>
+    <string name="oppo_edittext_search">搜索</string>
+    <string name="oppo_edittext_IME">輸入法</string>
+    <!-- Jianhui.Yu@Plf.SDK, 2013-12-23 : Add for Unified Volume Control -->
+    <string name="oppo_volume_unified_control">聲音大小統一控制</string>
+    <string name="oppo_resolver_ask_no_more">下次不再詢問</string>
 </resources>

@@ -31,6 +31,7 @@
        <item><xliff:g id="id">holidy_mode</xliff:g></item>
        <item><xliff:g id="id">power_save_mode</xliff:g></item>
        <item><xliff:g id="id">touch_pad</xliff:g></item>
+	   <item><xliff:g id="id">voice_control</xliff:g></item>
     </string-array>
 
     <integer name="oppo_config_tomorrowLowBatteryWarningLevel">40</integer>
@@ -41,7 +42,17 @@
 
     <integer name="config_longPressOnHomeBehavior_exp">3</integer>
 
-    <integer name="oppo_config_gestureInvalidateDuration">0</integer>
+    <integer name="oppo_config_gestureInvalidateDuration">20</integer>
     <integer name="oppo_config_gestureInvalidateFisrtFrameDelay">0</integer>
+    
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up.
+         The default is false. -->
+    <!-- Horn@OnLineRD.DeviceService, 2014-2-17, Modify for [new lid behavior, do not control sleep]  -->
+    <!--    <bool name="config_lidControlsSleep">true</bool>   -->
+    <!-- #else  //VENDOR_EDIT --> 
+         <bool name="config_lidControlsSleep">false</bool>  
+    <!-- #endif //VENDOR_EDIT -->
+
 
 </resources>

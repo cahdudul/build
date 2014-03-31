@@ -21,9 +21,10 @@
     <!-- AlertDialog's dimension -->
     
     <!-- AlertDialog's title -->
-    <dimen name="oppo_dialog_max_height">451dp</dimen>
+    <dimen name="oppo_dialog_max_height">586dp</dimen>
+    <dimen name="oppo_dialog_max_height_landscape">260dp</dimen>
     <dimen name="oppo_dialog_title_min_height">56dip</dimen>  
-    <color name="oppo_alert_dialog_title_text_color">@color/oppo_dialog_title_color</color>
+    <color name="oppo_alert_dialog_title_text_color">#0B984B</color> 
    
     <!-- AlertDialog's Content -->
     <dimen name="oppo_dialog_content_text_size">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
@@ -32,9 +33,10 @@
     <!-- AlertDialog's Button -->
     <dimen name="oppo_dialog_button_text_size">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
     <dimen name="oppo_dialog_button_paddingleft">4dp</dimen>
-    <dimen name="oppo_dialog_button_paddingbottom">0dp</dimen>
     <dimen name="oppo_dialog_buttons_interval">6dp</dimen>
     <dimen name="oppo_dialog_buttonPanel_height">54dip</dimen>
+    <dimen name="oppo_dialog_button_height">50dip</dimen>
+    
    
     <dimen name="oppo_dialog_hint_text_size">@dimen/oppo_tab_and_toast_and_edittext_text_size_4</dimen>
 
@@ -43,5 +45,7 @@
    <dimen name="oppo_dialog_customview_padding_top">15dp</dimen>
    <dimen name="oppo_dialog_customview_padding_bottom">15dp</dimen>
 
+    <color name="oppo_alert_dialog_button_text_normal_color">#333333</color>
+    <color name="oppo_alert_dialog_button_text_normal_color_fouse">#00925f</color>
   
 </resources>

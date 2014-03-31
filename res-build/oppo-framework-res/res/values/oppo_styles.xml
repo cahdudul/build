@@ -2,7 +2,7 @@
 <!--
 /********************************************************************************
  ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
- ** COLOROS_EDIT, All rights reserved.
+ ** VENDOR_EDIT, All rights reserved.
  ** 
  ** File: - oppo_styles.xml
  ** Description: 
@@ -10,12 +10,12 @@
  **     
  ** Version: 1.0
  ** Date: 2013-09-26
- ** Author: Jianhui.Yu@Plf.SDK
+ ** Author: Jianhui.Yu@Plf.Framework.SDK
  ** 
  ** =============================== Revision History: ============================
  ** <author>                        <data>       <version>   <desc>
  ** ==============================================================================
- ** Jianhui.Yu@Plf.SDK              2013-09-26   1.0         Add file header
+ ** Jianhui.Yu@Plf.Framework.SDK    2013-09-26   1.0         Add file header
  ********************************************************************************/
 -->
 <resources>
@@ -66,6 +66,39 @@
         <item name="android:taskToFrontExitAnimation">@anim/oppo_open_slide_exit</item>
         <item name="android:taskToBackEnterAnimation">@anim/oppo_close_slide_enter</item>
         <item name="android:taskToBackExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/oppo_open_slide_exit</item>
+    </style>
+	
+	<style name="Animation.OPPO.Layer" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_close_slide_exit</item>
+    </style>
+    <style name="Animation.OPPO.Task" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oppo_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oppo_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_task_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_task_close_slide_exit</item>
     </style>
 
     <style name="Animation.OPPO.Dialog">
@@ -121,7 +154,7 @@
         <item name="android:paddingLeft">0dip</item>
         <item name="android:paddingRight">0dip</item>
         <item name="android:paddingBottom">0dip</item>
-        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="android:divider">@drawable/oppo_alertdialog_button_diver</item>
         <item name="android:showDividers">middle</item>
         <item name="android:dividerPadding">0dip</item>
         <item name="android:background">@null</item>
@@ -189,12 +222,10 @@
     </style>
 
     <!-- PreferenceFragment -->
-    <style name="PreferenceFragment" />
-    <style name="PreferenceFragment.OPPO" > </style>
-    <!--
-        item name="android:paddingLeft">@dimen/oppo_preference_fragment_padding_side</item>
+    <style name="PreferenceFragment.OPPO" parent="*android:PreferenceFragment">
+        <item name="android:paddingLeft">@dimen/oppo_preference_fragment_padding_side</item>
         <item name="android:paddingRight">@dimen/oppo_preference_fragment_padding_side</item>
-    -->
+    </style>
 
     <!-- SegmentedButton -->
     <style name="SegmentedButton.OPPO" parent="*android:SegmentedButton">
@@ -256,7 +287,7 @@
 
     <style name="TextAppearance.OPPO.Widget.ActionBar.Subtitle" parent="TextAppearance.OPPO.Small">
         <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
-        <item name="android:textColor">@color/oppo_action_bar_subtitle_text_color</item>
+        <item name="android:textColor">@color/oppo_title_text_color_small</item>
     </style>
 
     <style name="TextAppearance.OPPO.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.OPPO.Small.Inverse">
@@ -271,12 +302,12 @@
 
     <style name="TextAppearance.OPPO.Widget.ActionBar.Title.Inverse" parent="TextAppearance.OPPO.Medium.Inverse">
         <item name="android:textSize">@dimen/oppo_action_bar_title_text_size</item>
-        <item name="android:textColor">@color/oppo_title_text_color_inverse</item>
+        <item name="android:textColor">@color/oppo_action_bar_sub_title_textcolor_default_inverse</item>
     </style>
 
     <style name="TextAppearance.OPPO.Widget.ActionMode.Subtitle" parent="TextAppearance.OPPO.Small">
         <item name="android:textSize">@dimen/oppo_action_bar_subtitle_text_size</item>
-        <item name="android:textColor">@color/oppo_subtitle_text_color_inverse</item>
+        <item name="android:textColor">@color/oppo_action_bar_sub_title_textcolor_default_inverse</item>
     </style>
 
     <style name="TextAppearance.OPPO.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.OPPO.Small.Inverse">
@@ -385,7 +416,7 @@
         <item name="android:background">@drawable/oppo_actionbar_tab_bg</item>
         <item name="android:divider">@null</item>
         <item name="android:showDividers">middle</item>
-        <item name="android:dividerPadding">12dip</item>
+        <item name="android:dividerPadding">2dip</item>
     </style>
 
     <style name="Widget.OPPO.ActionBar.TabText" parent="android:Widget.ActionBar.TabText">
@@ -478,13 +509,15 @@
     </style>
 
     <style name="Widget.OPPO.Button.Borderless">
+        <item name="android:layout_height">@dimen/oppo_dialog_button_height</item>
         <item name="android:background">@drawable/oppo_alert_dialog_button</item>
+        <item name="android:textSize">@dimen/oppo_dialog_button_text_size</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_button_text_color</item>
         <item name="android:paddingLeft">0dip</item>
         <item name="android:paddingRight">0dip</item>
     </style> 
 
     <style name="Widget.OPPO.Button.Borderless.Small">
-        <item name="android:textSize">14sp</item>
     </style>
 
     <style name="Widget.OPPO.CalendarView">
@@ -539,10 +572,6 @@
     <style name="Widget.OPPO.DropDownItem.Spinner">
         <item name="android:checkMark">?android:attr/listChoiceIndicatorSingle</item>
         <item name="android:textAppearance">?attr/textAppearanceDialogLarge</item>
-        <item name="android:paddingLeft">@dimen/oppo_list_item_divider_left_margin</item>
-        <item name="android:paddingRight">@dimen/oppo_list_item_divider_right_margin</item>
-        <item name="android:paddingStart">@dimen/oppo_list_item_divider_left_margin</item>
-        <item name="android:paddingEnd">@dimen/oppo_list_item_divider_right_margin</item>
     </style>
 
     <style name="Widget.OPPO.EditText" parent="android:Widget.EditText">
@@ -651,12 +680,14 @@
         <item name="itemMiddleBackground">@drawable/oppo_optionmenubar_major_btn_middle</item>
         <item name="itemRightBackground">@drawable/oppo_optionmenubar_major_btn_right</item>
         <item name="itemMoreIcon">@drawable/oppo_option_menu_bar_icon_more</item>
+        <item name="oppoItemMoreAnimation">@drawable/oppo_option_menu_bar_icon_more_normal_animation</item>
         <item name="majorOperationBackground">@drawable/oppo_option_menu_bar_major_operation_background</item>
         <item name="itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector</item> 
         <item name="fillLayoutSpace">true</item>
     </style>
 
     <style name="Widget.OPPO.OppoPagerTabStrip">
+        <item name="android:background">@drawable/oppo_pager_title_bg</item> 
         <item name="pagerTitleSize">@dimen/oppo_pager_title_text_size</item>
         <item name="pagerTitleColor">@color/oppo_pager_title_text_color</item>
         <item name="pagerTitleColorHighlight">@color/oppo_pager_title_highligth_text_color</item>
@@ -912,6 +943,8 @@
 
     <style name="OppoPreferenceCategoryStyle.Title">
         <item name="android:id">@android:id/title</item>
+        <item name="android:layout_height">@dimen/oppo_preference_category_text_height</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">@dimen/oppo_preference_category_text_padding_left</item>
         <item name="android:paddingTop">@dimen/oppo_common_category_text_padding_top</item>
         <item name="android:paddingBottom">@dimen/oppo_common_category_text_padding_bottom</item>
@@ -932,8 +965,8 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/oppo_textview_floatpanel_button_height</item>
-        <item name="android:paddingLeft">13dp</item>
-        <item name="android:paddingRight">13dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/oppo_textview_floatpanel_button_bg</item>
     </style>
@@ -972,6 +1005,11 @@
         <item name="android:textColor">@color/oppo_actionbar_tab_text_color_black</item>
     </style>
 
+    <style name="Widget.OPPO.ActionBar.TabBar.Black" >
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
     <style name="Widget.OPPO.ActionBar.Black">
         <item name="android:background">@drawable/oppo_activity_title_bar_black</item>
         <item name="android:backgroundStacked">@drawable/oppo_activity_title_bar_black</item>
@@ -1001,6 +1039,7 @@
         <item name="itemMiddleBackground">@drawable/oppo_option_menu_bar_major_btn_middle_black</item>
         <item name="itemRightBackground">@drawable/oppo_option_menu_bar_major_btn_right_black</item>
         <item name="itemMoreIcon">@drawable/oppo_option_menu_bar_icon_more_black</item>
+        <item name="oppoItemMoreAnimation">@drawable/oppo_option_menu_bar_icon_more_normal_black_animation</item>
         <item name="majorOperationBackground">@drawable/oppo_option_menu_bar_major_operation_background_black</item>
         <item name="itemMajorTextColor">@color/oppo_option_menu_bar_text_color_selector_black</item>
     </style>
@@ -1014,6 +1053,7 @@
         <item name="beforeSelected">@drawable/oppo_actionbar_tab_nomal_unselected_black</item>
         <item name="nomalUnselected">@drawable/oppo_actionbar_tab_nomal_unselected_black</item>
         <item name="oppoAnimateTabTextSize">@dimen/oppo_actionbar_tab_textsize_selected</item>
+        <item name="oppoAnimateTabTextColor">@color/oppo_actionbar_tab_text_color_selected_black</item>
         <item name="oppoAnimateTabOutLength">0dip</item>
         <item name="oppoAnimateTabOffset">0dip</item>
     </style>

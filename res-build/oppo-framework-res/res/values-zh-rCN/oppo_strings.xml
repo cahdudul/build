@@ -14,7 +14,7 @@
     <string name="oppo_rename_dialog_btn_cancel">取消</string>
     <string name="oppo_lunar_calendar_text">农历</string>
     <string name="oppo_solar_calendar_text">公历</string>
-    <string name="oppo_selecttext">"选择"</string>
+    <string name="oppo_selecttext">选择</string>
     <!-- Title of intent resolver dialog when selecting an application to run. -->
     <string name="oppo_whichApplication">选择要使用的应用</string>
     <!-- Option to always use the selected application resolution in the future. See the "Complete action using" dialog title-->
@@ -32,6 +32,8 @@
     <string name="mmcmnc46001">中国联通</string>
     <string name="mmcmnc46000">中国移动</string>
     <string name="mmcmnc46002">中国移动</string>
+    <string name="mmcmnc46003">中国电信</string>
+	  <string name="mmcmnc46007">中国移动</string>
     <string name="mmcmnc45406">数码通</string>
     <string name="mmcmnc45410">新世界</string>
     <string name="mmcmnc45412">中国移动万众</string>
@@ -78,4 +80,10 @@
 	
     <!-- JinPeng@Plf.Framework.SDK, 2013/08/03, Add for loading box -->
     <string name="oppo_loading">加载中......</string>
+
+    <string name="oppo_edittext_search">搜索</string>
+    <string name="oppo_edittext_IME">输入法</string>
+    <!-- Jianhui.Yu@Plf.SDK, 2013-12-23 : Add for Unified Volume Control -->
+    <string name="oppo_volume_unified_control">声音大小统一控制</string>
+    <string name="oppo_resolver_ask_no_more">下次不再询问</string>
 </resources>
