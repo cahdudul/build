@@ -22,7 +22,7 @@
     <dimen name="oppo_option_menu_bar_more_operation_item_padding_top">6dip</dimen>
 
     <!-- @dimen/oppo_optionmenubar_major_text_size_7 -->
-    <dimen name="oppo_option_menu_bar_major_text_size">19dp</dimen>
+    <dimen name="oppo_option_menu_bar_major_text_size">17dp</dimen>
 
     <color name="oppo_option_menu_bar_major_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
     <color name="oppo_option_menu_bar_major_text_color_pressed">@color/oppo_actionbar_and_list_big_text_color</color>

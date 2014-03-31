@@ -2,7 +2,7 @@
 <!--
 /********************************************************************************
  ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
- ** COLOROS_EDIT, All rights reserved.
+ ** VENDOR_EDIT, All rights reserved.
  ** 
  ** File: - oppo_themes.xml
  ** Description: 
@@ -10,12 +10,12 @@
  **     
  ** Version: 1.0
  ** Date: 2013-09-26
- ** Author: Jianhui.Yu@Plf.SDK
+ ** Author: Jianhui.Yu@Plf.Framework.SDK
  ** 
  ** =============================== Revision History: ============================
  ** <author>                        <data>       <version>   <desc>
  ** ==============================================================================
- ** Jianhui.Yu@Plf.SDK              2013-09-26   1.0         Add file header
+ ** Jianhui.Yu@Plf.Framework.SDK    2013-09-26   1.0         Add file header
  ********************************************************************************/
 -->
 <resources>
@@ -307,16 +307,14 @@
     <style name="Theme.OPPO.Dialog">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowTitleStyle">@style/DialogWindowTitle.OPPO</item>
-        <item name="android:windowBackground">@drawable/oppo_toast_frame</item>
+        <item name="android:windowBackground">@drawable/oppo_alertdialog_content_full_background</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Dialog</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Holo.Dialog</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:windowCloseOnTouchOutside">@*android:bool/config_closeDialogWhenTouchOutside</item>
-        <item name="android:windowMinWidthMajor">100%</item>
-        <item name="android:windowMinWidthMinor">100%</item>
 
         <item name="android:colorBackgroundCacheHint">@null</item>
 
@@ -338,21 +336,17 @@
          {@link android.app.AlertDialog} class.  This is basically a dialog
          but sets the background to empty so it can do two-tone backgrounds. -->    
     <style name="Theme.OPPO.Dialog.Alert">
-        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Dialog</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowTitleStyle">@style/DialogWindowTitle.OPPO</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowMinWidthMajor">100%</item>
-        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
         <item name="android:textColorPrimaryDisableOnly">@color/oppo_primary_text_disable_only</item>
     </style>
 
     <!--songjianfeng add for GlobalActions-->
     <style name="Theme.OPPO.Dialog.Alert.Transparent">
         <item name="android:alertDialogStyle">@style/AlertDialog.OPPO.Transparent</item>
-        <item name="android:windowAnimationStyle">@*android:style/Animation.Holo.Dialog</item>
-        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
-        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
     </style>
 
     <!-- Variant of Theme.OPPO.Dialog that has a nice minimum width for a regular dialog. -->
@@ -421,7 +415,11 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.OPPO.Panel.Volume" parent="@*android:Theme.Panel.Volume" />
+    <style name="Theme.OPPO.Panel.Volume">
+        <item name="android:windowAnimationStyle">@*android:style/Animation.VolumePanel</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="oppoAddMaskView">false</item>
+    </style>
 
     <!-- Theme for the search input bar. -->
     <style name="Theme.OPPO.SearchBar" parent="Theme.OPPO.Panel">
@@ -477,6 +475,7 @@
         <item name="oppoScrollingTabContainerViewStyle">@style/Widget.OPPO.OppoScrollingTabContainerView.Black</item>
         <item name="oppoOptionMenuBarStyle">@style/Widget.OPPO.OppoOptionMenuBar.Black</item>
         <item name="oppoEmptyHint">@drawable/oppo_empty_bottle_dark</item>
+        <item name="oppoWindowContentOverlay">@null</item>
         <item name="textAppearanceSubSmall">@style/OppoListViewTextAppearance.Small.Black</item>
         <!-- =============== android attrs =============== -->
         <!-- Text styles -->
@@ -501,6 +500,7 @@
         <!-- actionbar style -->
         <item name="android:actionBarStyle">@style/Widget.OPPO.ActionBar.Black</item>
         <item name="android:actionBarTabTextStyle">@style/Widget.OPPO.ActionBar.TabText.Black</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.OPPO.ActionBar.TabBar.Black</item>
         <!-- Preference styles -->
         <item name="android:preferenceCategoryStyle">@style/Preference.OPPO.Category.Black</item>
         <!-- Widget style -->
@@ -511,5 +511,26 @@
     <style name="Theme.OPPO.Black.NoTitleBar">
         <item name="android:windowNoTitle">true</item>
     </style>
-
+	
+    <style name="Theme.OPPO.Layer" parent="Theme.OPPO">
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Layer</item>
+    </style>
+    <style name="Theme.OPPO.NoTitleBar.Layer" parent="Theme.OPPO.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Layer</item>
+    </style>
+    <style name="Theme.OPPO.NoActionBarShadow.Layer" parent="Theme.OPPO.NoActionBarShadow">  
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Layer</item>
+    </style>
+    
+    <style name="Theme.OPPO.Task" parent="Theme.OPPO">
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Task</item>
+    </style>
+    <style name="Theme.OPPO.NoTitleBar.Task" parent="Theme.OPPO.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Task</item>
+    </style>
+    <style name="Theme.OPPO.NoActionBarShadow.Task" parent="Theme.OPPO.NoActionBarShadow">  
+        <item name="android:windowAnimationStyle">@style/Animation.OPPO.Task</item>
+    </style>
 </resources>

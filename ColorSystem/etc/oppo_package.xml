@@ -12,8 +12,8 @@
 	<ForceUnpackNativeLibArray>com.oppo.reader</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.ebook</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.compass</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.gesture</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.iflytek.speechservice</ForceUnpackNativeLibArray>
+	<ForceUnpackNativeLibArray>com.iflytek.speechcloud</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.iflytek.speech</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.baidu.input_oppo</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.findmyphone</ForceUnpackNativeLibArray>
@@ -27,7 +27,7 @@
 	<ForceUnpackNativeLibArray>com.oppo.digitalclock</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.widget.music</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.widget.picture</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.LockScreenGlassBoard</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.LockScreenGlassBoard</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.LockScreenWeather</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.card</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.bubble</ForceUnpackNativeLibArray>
@@ -44,7 +44,7 @@
 	<ForceUnpackNativeLibArray>com.oppo.music</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.android.defcontainer</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.android.facelock</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.video</ForceUnpackNativeLibArray>
+	<ForceUnpackNativeLibArray>com.android.video</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.sohu.inputmethod.sogou</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.android.nfc</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.market</ForceUnpackNativeLibArray>
@@ -55,13 +55,13 @@
 	<ForceUnpackNativeLibArray>com.netease.newsreader.activity</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.tmall.wireless</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.taobao.taobao</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.kinect</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.baidu.map.location</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.android.systemui</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.blacklist</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.oppo.alarmclock</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.etao.kaka</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.android.browser</ForceUnpackNativeLibArray>
+	 <ForceUnpackNativeLibArray>com.oppo.kinect</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.baidu.map.location</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.systemui</ForceUnpackNativeLibArray>  
+    <ForceUnpackNativeLibArray>com.oppo.blacklist</ForceUnpackNativeLibArray>  
+    <ForceUnpackNativeLibArray>com.oppo.alarmclock</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.gesture</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.video</ForceUnpackNativeLibArray>
 <!-- #ifdef VENDOR_EDIT -->
 <!-- LiuLei@EXP.GeneralApp.IME, 2013/06/01, Add for IME -->
     <ForceUnpackNativeLibArray>com.oppo.keyboard</ForceUnpackNativeLibArray> 
@@ -69,12 +69,6 @@
     <ForceUnpackNativeLibArray>com.google.android.inputmethod.latin</ForceUnpackNativeLibArray>
     <ForceUnpackNativeLibArray>com.google.android.inputmethod.pinyin</ForceUnpackNativeLibArray>
 <!-- #endif //VENDOR_EDIT -->
-
-<!-- #ifdef VENDOR_EDIT -->
-<!-- Lichen@Camera, 2013/09/28, Add for Camera -->
-    <ForceUnpackNativeLibArray>com.oppo.camera</ForceUnpackNativeLibArray> 
-<!-- #endif //VENDOR_EDIT -->
-
      
 	 
 	<OppoShareUid>android.uid.assistance</OppoShareUid>

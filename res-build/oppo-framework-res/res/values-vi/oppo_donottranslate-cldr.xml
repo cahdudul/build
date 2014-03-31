@@ -97,4 +97,6 @@
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_ymd">%1$s, %4$s %2$s %3$s %5$s – %6$s, %9$s %7$s %8$s %10$s</string>
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_mdy">%1$s, %2$s %3$s %4$s %5$s – %6$s, %7$s %8$s %9$s %10$s</string>
     <string name="oppo_same_month_wday1_mdy1_time1_wday2_mdy2_time2_dmy">%1$s, %3$s %2$s %4$s %5$s - %6$s, %8$s %7$s %9$s %10$s</string>
+    <!-- from android 4.2 -->
+    <string name="oppo_twenty_four_hour_time_format">H:mm</string>
 </resources>

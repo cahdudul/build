@@ -20,7 +20,7 @@
 -->
 
 <resources>
-    <integer name="oppo_smartwake_drawable_row">5</integer>
-    <integer name="oppo_smartwake_drawable_col">4</integer>
+    <integer name="oppo_smartwake_drawable_row">4</integer>
+    <integer name="oppo_smartwake_drawable_col">3</integer>
 </resources>
 

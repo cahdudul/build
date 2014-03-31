@@ -13,9 +13,9 @@
 ** Author: Jianhui.Yu@Plf.MidWare.SDK
 ** 
 ** ******************************* Revision History: ****************************
-** <author>                     <data>      <version>   <desc>
+** <author>						<data>		<version>	<desc>
 ** ******************************************************************************
-** Jianhui.Yu@Plf.MidWare.SDK   2013/01/09  1.0         build this moudle
+** Jianhui.Yu@Plf.MidWare.SDK	2013/01/09	1.0			build this moudle
 ********************************************************************************/
 -->
 <resources>
@@ -26,12 +26,13 @@
     <dimen name="oppo_preference_fragment_item_padding_side">12dip</dimen>
 
     <!-- PreferenceCategory -->
-    <color name="oppo_preference_category_text_color">#0B984B</color>
-    <dimen name="oppo_preference_category_text_size">@dimen/oppo_actionbar_and_list_small_text_size_2</dimen>
+    <color name="oppo_preference_category_text_color">#5d5d5d</color>
+    <dimen name="oppo_preference_category_text_size">10sp</dimen>
+    <dimen name="oppo_preference_category_text_height">25dip</dimen>
     <dimen name="oppo_preference_category_text_padding_left">3dip</dimen>
-    <dimen name="oppo_preference_category_text_padding_top">10dip</dimen>
-    <dimen name="oppo_preference_category_text_padding_bottom">4dip</dimen>
-    <dimen name="oppo_common_category_text_padding_top">3dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_top">7dip</dimen>
+    <dimen name="oppo_preference_category_text_padding_bottom">0dip</dimen>
+    <dimen name="oppo_common_category_text_padding_top">0dip</dimen>
     <dimen name="oppo_common_category_text_padding_bottom">0dip</dimen>
 
     <!-- Preference -->

@@ -175,7 +175,7 @@
 	    <FrameLayout
 	    	android:layout_width="41dp"
 	        android:layout_height="41dp"
-	        android:layout_marginLeft="16dp"
+	        android:layout_marginLeft="12dp"
 	        android:layout_gravity="center_vertical"
 	        android:background="@drawable/oppo_notification_template_icon_bg">
 		    <ImageView android:id="@+id/icon"

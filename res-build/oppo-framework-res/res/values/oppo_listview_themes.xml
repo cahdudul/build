@@ -29,8 +29,8 @@
     <color name="oppo_list_separator_text_color">@color/oppo_list_large_text_color_normal</color>
     <color name="oppo_list_large_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>
     <color name="oppo_list_large_text_color_selected">@color/oppo_actionbar_and_list_big_text_color</color>
-    <color name="oppo_list_small_text_color_normal">@color/oppo_actionbar_and_list_small_text_color</color>
-    <color name="oppo_list_small_text_color_selected">@color/oppo_actionbar_and_list_small_text_color</color>
+    <color name="oppo_list_small_text_color_normal">#878b8a</color>
+    <color name="oppo_list_small_text_color_selected">#878b8a</color>
     <color name="oppo_list_text_color_disabled">@color/oppo_actionbar_and_list_big_text_color_disable</color>
     <color name="oppo_alert_list_text_color">#ff000000</color>
     <color name="oppo_alert_list_large_text_color_normal">@color/oppo_actionbar_and_list_big_text_color</color>

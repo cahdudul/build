@@ -103,9 +103,11 @@
   <item type="id" name="oppo_buttonSelect" />
   <item type="id" name="oppo_buttonSelectAll" />
   <item type="id" name="oppo_inputmethodSwitch" />
+  <item type="id" name="oppo_buttonSearch" />
   <item type="id" name="oppo_separator1" />
   <item type="id" name="oppo_separator2" />
   <item type="id" name="oppo_separator3" />
+  <item type="id" name="oppo_separator4" />
   <item type="id" name="oppo_toolbar_group" />
   <item type="id" name="oppo_toolbar_position_arrow" />
   <item type="id" name="alertTitle" />
@@ -175,5 +177,24 @@
   <item type="id" name="message" />
   <item type="id" name="oppo_listview_scrollchoice_checkbox" />
   <item type="id" name="emptybottle" />
-  <item type="id" name="oppo_search_src_voice" />
+  
+  <item type="id" name="oppo_security_content" />
+  <item type="id" name="oppo_security_remember" />
+
+  <item type="id" name="oppo_volumn_disk" />
+  <item type="id" name="oppo_volumn_progress" />
+  <item type="id" name="oppo_volumn_icon" />
+  <item type="id" name="oppo_volumn_title" />
+  <item type="id" name="oppo_volume_unified_control" />
+  <item type="id" name="parentPanel" />
+  <item type="id" name="oppo_list_back_to_top_button" />
+  <item type="id" name="oppo_resolver_checkbox_option" />
+  <item type="id" name="oppo_text1" />
+  <item type="id" name="oppo_text2" />
+  <item type="id" name="oppo_resolver_grid" />
+  <item type="id" name="oppo_button_bar" />
+  <item type="id" name="oppo_button_always" />
+  <item type="id" name="oppo_button_once" />
+  
+ 
 </resources>

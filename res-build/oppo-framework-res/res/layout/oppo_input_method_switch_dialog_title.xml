@@ -104,6 +104,6 @@
         android:id="@*android:id/titleDivider"
         android:layout_width="match_parent"
         android:layout_height="2dip"
-        android:background="@drawable/oppo_alert_dialog_title_divider" />
+        android:background="@null" />
 
 </LinearLayout>

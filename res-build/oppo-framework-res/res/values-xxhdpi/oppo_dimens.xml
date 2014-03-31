@@ -21,6 +21,5 @@
     <dimen name="oppo_global_actions_silent_height">62dip</dimen>
     <dimen name="oppo_float_panel_arrow_top_offset">2dip</dimen>
     <dimen name="oppo_float_panel_arrow_bottom_offset">6dip</dimen>
-    <dimen name="oppo_textview_floatpanel_button_height">40dip</dimen>
-    <dimen name="oppo_textview_floatpanel_button_text_size">@dimen/oppo_actionbar_and_list_big_text_size_5</dimen>
+    <dimen name="oppo_textview_floatpanel_button_height">36dip</dimen>
 </resources>

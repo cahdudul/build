@@ -538,14 +538,128 @@
 	<item>t0e59</item>
     </string-array>
   
+        <!-- add begin by zengzhigang 2011-03-09 for resovle english and chinese plmn name -->
+  <string-array name="oppo_plmn_mcc_mnc">
+    <item><xliff:g id="id">46001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46000mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46002mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46003mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46007mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45406mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45410mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45412mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45415mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45416mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45419mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45500mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45501mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45503mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45504mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45505mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46601mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46688mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46689mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46692mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46693mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46697mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">46699mmcmnc</xliff:g></item>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <item><xliff:g id="id">25001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25002mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25003mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25005mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25007mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25012mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25014mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25016mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25017mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25019mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25020mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25023mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25039mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">25099mmcmnc</xliff:g></item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle vietnam plmn name -->
+    <item><xliff:g id="id">45201mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45202mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45204mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45205mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">45207mmcmnc</xliff:g></item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <item><xliff:g id="id">51001mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51008mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51010mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51011mmcmnc</xliff:g></item>
+    <item><xliff:g id="id">51089mmcmnc</xliff:g></item>  
+<!-- #endif VENDOR_EDIT-->
+  </string-array>
+  <array name="oppo_plmn_name">
+    <item>@string/mmcmnc46001</item>
+    <item>@string/mmcmnc46000</item>
+    <item>@string/mmcmnc46002</item>
+    <item>@string/mmcmnc46003</item>
+    <item>@string/mmcmnc46007</item>
+    <item>@string/mmcmnc45406</item>
+    <item>@string/mmcmnc45410</item>
+    <item>@string/mmcmnc45412</item>
+    <item>@string/mmcmnc45415</item>
+    <item>@string/mmcmnc45416</item>
+    <item>@string/mmcmnc45419</item>
+    <item>@string/mmcmnc45500</item>
+    <item>@string/mmcmnc45501</item>
+    <item>@string/mmcmnc45503</item>
+    <item>@string/mmcmnc45504</item>
+    <item>@string/mmcmnc45505</item>
+    <item>@string/mmcmnc46601</item>
+    <item>@string/mmcmnc46688</item>
+    <item>@string/mmcmnc46689</item>
+    <item>@string/mmcmnc46692</item>
+    <item>@string/mmcmnc46693</item>
+    <item>@string/mmcmnc46697</item>
+    <item>@string/mmcmnc46699</item>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jifeng.Tan@EXP.MidWare.MidWare , 2013/06/08,
+          add begin by wuyisheng 2013-02-04 for resovle russia plmn name -->
+    <item>@string/mmcmnc25001</item>
+    <item>@string/mmcmnc25002</item>
+    <item>@string/mmcmnc25003</item>
+    <item>@string/mmcmnc25005</item>
+    <item>@string/mmcmnc25007</item>
+    <item>@string/mmcmnc25012</item>
+    <item>@string/mmcmnc25014</item>
+    <item>@string/mmcmnc25016</item>
+    <item>@string/mmcmnc25017</item>
+    <item>@string/mmcmnc25019</item>
+    <item>@string/mmcmnc25020</item>
+    <item>@string/mmcmnc25023</item>
+    <item>@string/mmcmnc25039</item>
+    <item>@string/mmcmnc25099</item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Vietnam plmn name -->
+    <item>@string/mmcmnc45201</item>
+    <item>@string/mmcmnc45202</item>
+    <item>@string/mmcmnc45204</item>
+    <item>@string/mmcmnc45205</item>
+    <item>@string/mmcmnc45207</item>
+    <!-- add begin by wuyisheng 2013-02-04 for resovle Indonesia plmn name -->
+    <item>@string/mmcmnc51001</item>
+    <item>@string/mmcmnc51008</item>
+    <item>@string/mmcmnc51010</item>
+    <item>@string/mmcmnc51011</item>
+    <item>@string/mmcmnc51089</item>
+<!-- #endif VENDOR_EDIT-->
+  </array>    
+  <!-- add end by zengzhigang 2011-03-09 for resovle english and chinese plmn name -->
+
+  
   <string-array name="oppo_permissions_prompt">
     <item>make a call</item>
     <item>access call logs</item>
     <item>access contacts</item>
-    <item>access sms/mms records</item>
-    <item>send sms</item>
+    <item>access sms/mms logs</item>
+    <item>send message</item>
     <item>send mms</item>
-    <item>enable/disable mobile data</item>
+    <item>enable/disable data network</item>
     <item>enable/disable WLAN</item>
     <item>enable/disable Bluetooth</item>
     <item>use GPS positioning (Note: Applications may also get your location by other means)</item>
@@ -595,13 +709,13 @@
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_normal</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_disable</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_default_pressed</item>
-	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_normal</item>
+	<item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_normal</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_disable</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_left_pressed</item>
-	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_normal</item>
+	<item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_normal</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_disable</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_middle_pressed</item>
-	    <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_normal</item>
+	<item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_normal</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_disable</item>
         <item>@drawable/oppo_option_menu_bar_major_operation_item_bg_right_pressed</item>
         <item>@drawable/oppo_option_menu_bar_minor_operation_item_bg_pressed</item>

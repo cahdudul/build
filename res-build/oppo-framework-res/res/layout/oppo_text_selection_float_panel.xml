@@ -46,9 +46,22 @@ This is layout for the float panel of text view selection.
             android:layout_marginTop="5dp"
             android:background="@drawable/oppo_textview_toolbar_separator"
             />
+        <TextView android:id="@+id/oppo_buttonSearch"
+            style="@style/OppoTextViewFloatPanelButton"
+            android:text="@string/oppo_edittext_search"
+            />  
+        <ImageView android:id="@+id/oppo_separator4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/oppo_textview_toolbar_separator"
+            />
+
+
         <TextView android:id="@+id/oppo_inputmethodSwitch"
             style="@style/OppoTextViewFloatPanelButton"
-            android:text="@*android:string/inputMethod"
+            android:text="@string/oppo_edittext_IME"
             />            
     </LinearLayout>
     <ImageView android:id="@+id/oppo_arrow_up"

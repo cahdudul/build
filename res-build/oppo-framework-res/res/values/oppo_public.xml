@@ -96,6 +96,8 @@
     <public type="attr" name="majorOperationBackground" id="0x0c010056" />
     <public type="attr" name="oppoEmptyHint" id="0x0c010057" />   
     <public type="attr" name="oppoWindowContentOverlay" id="0x0c010058" />
+    <public type="attr" name="oppoWindowActionBarAndStatusBarOverlay" id="0x0c010059" />
+    <public type="attr" name="oppoItemMoreAnimation" id="0x0c01005a" />
 
     <public type="id" name="oppo_rename_dialog_edit" id="0x0c020000" />
     <public type="id" name="oppo_listview_scrollchoice_checkbox" id="0x0c020001" />
@@ -143,6 +145,12 @@
     <public type="style" name="Animation.OPPO.OppoOptionMenuBar.CurrentActivity" id="0x0c030028" />
     <public type="style" name="Animation.OPPO.OppoOptionMenuBar.NewActivity" id="0x0c030029" />
     <public type="style" name="Theme.OPPO.NoActionBarShadow" id="0x0c03002a" />
+    <public type="style" name="Theme.OPPO.Layer" id="0x0c03002b" />
+    <public type="style" name="Theme.OPPO.NoTitleBar.Layer" id="0x0c03002c" />
+    <public type="style" name="Theme.OPPO.NoActionBarShadow.Layer" id="0x0c03002d" />
+    <public type="style" name="Theme.OPPO.Task" id="0x0c03002e" />
+    <public type="style" name="Theme.OPPO.NoTitleBar.Task" id="0x0c03002f" />
+    <public type="style" name="Theme.OPPO.NoActionBarShadow.Task" id="0x0c030030" />
     <public type="style" name="Animation.OPPO.LockScreen" id="0x0c030045" />
 
     <public type="string" name="oppo_rename_dialog_title" id="0x0c040000" />
@@ -376,6 +384,7 @@
 
     <public type="layout" name="oppo_rename_dialog_layout" id="0x0c090000" />
     <public type="layout" name="oppo_waiting_loading" id="0x0c090001" />
+    <public type="layout" name="oppo_preference_divider" id="0x0c090002" />
 
     <public type="anim" name="android_push_down_in" id="0x0c0a0000" />
     <public type="anim" name="android_push_down_out" id="0x0c0a0001" />
@@ -390,6 +399,12 @@
     <public type="anim" name="oppo_dialog_open_exit" id="0x0c0a000a" />
     <public type="anim" name="oppo_dialog_open_enter" id="0x0c0a000b" />
     <public type="anim" name="oppo_open_slide_enter" id="0x0c0a000c" />
+    <public type="anim" name="oppo_list_layout_animation" id="0x0c0a000d" />
+    <public type="anim" name="oppo_task_open_slide_enter" id="0x0c0a000e" />
+    <public type="anim" name="oppo_task_open_slide_exit" id="0x0c0a000f" />
+    <public type="anim" name="oppo_open_slide_exit" id="0x0c0a0010" />
+    <public type="anim" name="oppo_task_close_slide_enter" id="0x0c0a0011" />
+    <public type="anim" name="oppo_task_close_slide_exit" id="0x0c0a0012" />
 
     <public type="xml" name="android_apns" id="0x0c0b0000" />
 

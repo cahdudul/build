@@ -190,13 +190,16 @@
     <string name="android_wday_date">@*android:string/wday_date</string>
     <string name="android_time_date">@*android:string/time_date</string>
     <string name="android_time_wday">@*android:string/time_wday</string>
-    <string name="android_twenty_four_hour_time_format">@*android:string/twenty_four_hour_time_format</string>
-    <string name="android_twelve_hour_time_format">@*android:string/twelve_hour_time_format</string>
+    <!--<string name="android_twenty_four_hour_time_format">@*android:string/twenty_four_hour_time_format</string>-->
+    <!--<string name="android_twelve_hour_time_format">@*android:string/twelve_hour_time_format</string>-->
     <string name="android_numeric_date_template">@*android:string/numeric_date_template</string>
     <string name="android_numeric_date_format">@*android:string/numeric_date_format</string>
     <string name="android_config_dreamsDefaultComponent">@*android:string/config_dreamsDefaultComponent</string>
     <string name="android_safe_media_volume_warning">@*android:string/safe_media_volume_warning</string>
     <string name="android_text_copied">@*android:string/text_copied</string>
+
+    <string name="android_whichApplication">@*android:string/whichApplication</string>
+    <string name="android_noApplications">@*android:string/noApplications</string>
 
     <!-- array-->
     <!-- public -->
@@ -208,6 +211,8 @@
     <!-- public -->
     <integer name="android_preference_fragment_scrollbarStyle">@*android:integer/preference_fragment_scrollbarStyle</integer> 
     <integer name="android_config_safe_media_volume_index">@*android:integer/config_safe_media_volume_index</integer>
+    <integer name="android_config_maxResolverActivityColumns">@*android:integer/config_maxResolverActivityColumns</integer>
+
 
     <!-- anim -->
     <!-- public -->
