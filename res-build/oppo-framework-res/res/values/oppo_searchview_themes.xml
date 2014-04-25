@@ -2,7 +2,7 @@
 <!-- 
 /********************************************************************************
  ** Copyright (C), 2008-2013, OPPO Mobile Comm Corp., Ltd
- ** COLOROS_EDIT, All rights reserved.
+ ** VENDOR_EDIT, All rights reserved.
  ** 
  ** File: - oppo_searchview_themes.xml
  ** Description: 
@@ -10,12 +10,12 @@
  **     
  ** Version: 1.0
  ** Date: 2010-09-10
- ** Author: Yaojun.Luo@Plf.SDK
+ ** Author: Yaojun.Luo@Plf.Framework.SDK
  ** 
  ** =============================== Revision History: ============================
  ** <author>                        <data>       <version>   <desc>
  ** ==============================================================================
- ** Yaojun.Luo@Plf.SDK              2010-09-10   1.0         Create this moudle
+ ** Yaojun.Luo@Plf.Framework.SDK    2010-09-10   1.0         Create this moudle
  ********************************************************************************/
 -->
 <resources>

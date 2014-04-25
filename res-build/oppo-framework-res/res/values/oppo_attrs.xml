@@ -18,10 +18,9 @@
     <attr name="textAppearanceDialogSmall" format="reference" />
 
     <attr name="oppoListViewStyle" format="reference" />
-    <!-- #ifdef COLOROS_EDIT -->
     <!-- Jianjun.Dan@Plf.Framework.SDK, 2013-04-22, Add for oppo attr -->
     <attr name="oppoSearchAnimTextField" format="reference" /> 
-    <!-- #endif //COLOROS_EDIT -->
+    <!-- #endif //VENDOR_EDIT -->
 
     <declare-styleable name="OppoProgressBar">
         <!-- separator the progressbar & seekbar when custom draw-->
@@ -250,21 +249,22 @@
         <attr name="toRollDegrees" format="float|fraction" />
     </declare-styleable>
 
-<!-- #ifdef COLOROS_EDIT -->
+<!-- #ifdef VENDOR_EDIT -->
 <!-- ZhiYong.Lin@Plf.Framework add for preview 2012-12-20 -->
+<!-- #OppoHook -->
     <attr name="windowPreviewGround" format="reference" />
     <declare-styleable name="Window">
         <attr name="windowPreviewGround" />
     </declare-styleable>
- <!-- #endif //COLOROS_EDIT -->
+ <!-- #endif //VENDOR_EDIT -->
 
     <declare-styleable name="OppoWeightedLinearLayout">
         <attr name="majorWeight" format="float" />
         <attr name="minorWeight" format="float" />
     </declare-styleable>
 
-<!-- #ifdef COLOROS_EDIT -->
-    <!-- Jianhui.Yu@Plf.SDK, 2012-12-18, Add for oppo attr -->
+<!-- #ifdef VENDOR_EDIT -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2012-12-18, Add for oppo attr -->
     <attr name="oppoSearchViewEditQuery" format="reference" />
     <attr name="oppoSearchViewEditQueryBackground" format="reference" />
     <attr name="oppoSearchViewSearchIcon" format="reference" />
@@ -273,7 +273,7 @@
     <attr name="oppoNumberPickerStyle" format="reference" />
     <attr name="oppoDatePickerStyle" format="reference" />
     <attr name="oppoTimePickerStyle" format="reference" />
-    <!-- Jianhui.Yu@Plf.SDK, 2012-12-18, Add for oppo styleable -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2012-12-18, Add for oppo styleable -->
     <declare-styleable name="OppoNumberPicker">
         <!--  The divider for making the selection area. -->
         <attr name="selectionDivider" format="reference" />
@@ -300,7 +300,7 @@
              or "lock_height" -->
         <attr name="aspect" format="string" />
     </declare-styleable>
-    <!-- Jianhui.Yu@Plf.SDK, 2013-01-17, Add for oppo attr -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2013-01-17, Add for oppo attr -->
     <declare-styleable name="OppoSwitch">
         <attr name="thumbOuter" format="dimension" />
         <attr name="thumbInner" format="dimension" />
@@ -308,14 +308,14 @@
         <attr name="thumbPadding" format="dimension" />
     </declare-styleable>
     <attr name="oppoSwitchStyle" format="reference" />
-    <!-- Jianhui.Yu@Plf.SDK, 2013-01-23, Add for oppo attr -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2013-01-23, Add for oppo attr -->
     <attr name="oppoSwitchPreferenceStyle" format="reference" />
-    <!-- Jianhui.Yu@Plf.SDK, 2013-01-23, Add for oppo attr -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2013-01-23, Add for oppo attr -->
     <declare-styleable name="OppoPreferenceTextAppearance">
         <attr name="titleColor" format="reference|color" />
         <attr name="summaryColor" format="reference|color" />
     </declare-styleable>
-    <!-- Changwei.Li@Plf.SDK, 2013-02-06, Add for oppo attr -->
+    <!-- Changwei.Li@Plf.Framework.SDK, 2013-02-06, Add for oppo attr -->
     <attr name="oppoOptionMenuBarStyle" format="reference" />
     <declare-styleable name="OppoOptionMenuBar">
         <!-- specified wheather the OppoOptionMenuBar fill the app's layout space,true is fill while false is not,the default is true -->
@@ -336,7 +336,7 @@
         <attr name="itemMajorTextColor" format="reference|color" />
         <attr name="majorOperationBackground" format="reference|color" />
     </declare-styleable>
-    <!-- Jianhui.Yu@Plf.SDK, 2013-02-06, Add for oppo attr -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2013-02-06, Add for oppo attr -->
     <declare-styleable name="OppoMultiListView">
         <attr name="backgroundTop" format="reference" />
         <attr name="backgroundMiddle" format="reference" />
@@ -347,7 +347,7 @@
         <attr name="selectorBottom" format="reference" />
         <attr name="selectorOnlyOne" format="reference" />
     </declare-styleable>
-    <!-- Jianhui.Yu@Plf.SDK, 2013-03-13, Add for oppo attr -->
+    <!-- Jianhui.Yu@Plf.Framework.SDK, 2013-03-13, Add for oppo attr -->
     <declare-styleable name="OppoSwitchPreference">
         <attr name="clickToggle" format="boolean" />
     </declare-styleable>
@@ -417,5 +417,5 @@
         <attr name="focusLine" format="reference|color" />
         <attr name="focusLineWidth" format="reference|dimension" />
     </declare-styleable>
-<!-- #endif //COLOROS_EDIT -->
+<!-- #endif //VENDOR_EDIT -->
 </resources>

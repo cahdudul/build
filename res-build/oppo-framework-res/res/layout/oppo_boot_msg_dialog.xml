@@ -37,16 +37,16 @@
             android:orientation="horizontal" >
 
         <ProgressBar android:id="@android:id/progress"
-        	    style="?android:attr/progressBarStyleInverse"
+                style="?android:attr/progressBarStyleInverse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:max="10000"
-        	    android:paddingRight="4dip"  
+                android:paddingRight="4dip"  
                 android:layout_marginRight="12dip" />
 
         <TextView android:id="@android:id/message"
                 android:textAppearance="?oppo:attr/textAppearanceDialogLarge"
-        	    android:textColor="@oppo:color/oppo_alert_dialog_content_text_color"
+                android:textColor="@oppo:color/oppo_alert_dialog_content_text_color"
                 android:textSize="@oppo:dimen/oppo_dialog_content_text_size"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

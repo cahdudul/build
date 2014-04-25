@@ -40,8 +40,8 @@
     <!-- #ifdef VENDOR_EDIT -->
     <!-- Pihe.Wu@Prd.MidWare.Theme, 2012/08/06, Add for  -->
     <color name="oppo_statusbar_latest_event_title_color">#ffffff</color>
-    <color name="oppo_statusbar_latest_event_content_color">#eaeaea</color>
-    <color name="oppo_status_bar_latest_event_time_color">#eaeaea</color>
+    <color name="oppo_statusbar_latest_event_content_color">#8b8b8b</color>
+    <color name="oppo_status_bar_latest_event_time_color">#8b8b8b</color>
     <color name="oppo_dark_header_text_color">#141414</color>
     <!-- #endif //VENDOR_EDIT -->
    <color name="oppo_primary_text_disable_only">#ff141414</color>   

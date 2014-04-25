@@ -13,7 +13,7 @@
     <string name="oppo_rename_dialog_btn_ok">確定</string>
     <string name="oppo_rename_dialog_btn_cancel">取消</string>
     <string name="oppo_lunar_calendar_text">農曆</string>
-    <string name="oppo_solar_calendar_text">國曆</string>
+    <string name="oppo_solar_calendar_text">公曆</string>
     <string name="oppo_selecttext">選取</string>
     <string name="oppo_whichApplication">選擇要使用的應用</string>
     <string name="oppo_alwaysUse" msgid="4583018368000610438">「預設用於執行此操作。」</string>
