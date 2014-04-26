@@ -6,8 +6,8 @@ update:
 
 firstpatch : getsmali resource
 	@echo "First patch, We will autopatch changed smali files, you should modify files in dir temp/reject"
-	ifneq ($(ORGIN_SECOND_FRAMEWORK_NAME), )
+    ifneq ($(ORGIN_SECOND_FRAMEWORK_NAME), )
 		${PORT_TOOLS}/copy_fold.sh smali/${ORGIN_SECOND_FRAMEWORK_NAME}.out/ smali/framework.jar.out/
 		rm -rf smali/${ORGIN_SECOND_FRAMEWORK_NAME}.out
-	endif
+    endif
 	${PORT_TOOLS}/patch_color_framework.sh ${PORT_ROOT}/smali/android ${PORT_ROOT}/smali/color ${PWD}/smali/ ${PORT_ROOT}/smali/sourcechange.txt
