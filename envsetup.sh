@@ -75,6 +75,7 @@ if [ -n "$PORT_ROOT" ]; then
     echo "PORT_ROOT       = $PORT_ROOT"
     echo "PORT_BUILD      = $PORT_BUILD"
     echo "PORT_TOOLS      = $PORT_TOOLS"
+    echo "PORT_DEVICE     = $PORT_DEVICE"
     echo "ANDROID_TOP     = $ANDROID_TOP"
     echo "ANDROID_OUT     = $ANDROID_OUT"
 fi
