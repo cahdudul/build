@@ -16,7 +16,7 @@ $(1):
 	@cp ${PORT_DEVICE}/update/system/app/$1 ${PORT_DEVICE}/apps
 endef
 
-$(foreach apk, $(APPS_NEED_RESIGN) $(APPS_EXTRA), \
+$(foreach apk, $(APPS_NEED_RESIGN) $(APPS_EXTRA) ${APPS_MTK_ONLY}, \
 	$(eval $(call APK_template,$(apk))))
 
 $(foreach apk, $(APPS_KEEP_ORIGIN), \
