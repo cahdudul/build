@@ -14,7 +14,7 @@
 	<ForceUnpackNativeLibArray>com.oppo.compass</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.gesture</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.iflytek.speechservice</ForceUnpackNativeLibArray>
-	<ForceUnpackNativeLibArray>com.iflytek.speech</ForceUnpackNativeLibArray>
+	<ForceUnpackNativeLibArray>com.iflytek.speechcloud</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.baidu.input_oppo</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.findmyphone</ForceUnpackNativeLibArray>
 	<ForceUnpackNativeLibArray>com.oppo.speechassist.engine</ForceUnpackNativeLibArray>
@@ -75,7 +75,10 @@
     <ForceUnpackNativeLibArray>com.oppo.camera</ForceUnpackNativeLibArray> 
 <!-- #endif //VENDOR_EDIT -->
 
-     
+<!-- #ifdef VENDOR_EDIT -->
+<!-- YuHao@Plf.DesktopApp.MusicWidget, 2014/05/30, Add for sougou IME -->
+	 <ForceUnpackNativeLibArray>com.sohu.inputmethod.sogouoem</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
 	 
 	<OppoShareUid>android.uid.assistance</OppoShareUid>
 	<OppoShareUid>oppo.uid.nearme</OppoShareUid>
